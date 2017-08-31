@@ -316,97 +316,78 @@ ul.actions li a.button {
 
 .spotlights {
   background: #ececec !important; }
-  .spotlights section {
-    overflow: hidden;
-    background-image: linear-gradient(to right, #e0e0e0 50%, #FCCC04 50%);
-    background-size: 200% 100%;
-    background-position: 0% 0;
-    transition: background-position .5s;
-    transition-timing-function: cubic-bezier(0.59, 0.11, 0.855, 0.36) !important;
-    position: relative; }
-    .spotlights section.is-open {
-      background-position: 100% 0; }
-    .spotlights section a.image.media {
-      background-position: center 25%;
-      background-repeat: no-repeat;
-      background-color: #d2d2d2;
-      width: 575px;
+  .spotlights .wall {
+    width: 100%; }
+    .spotlights .wall .brick {
       position: relative;
-      outline: none !important; }
-      @media screen and (max-width: 980px) {
-        .spotlights section a.image.media {
-          background-size: contain;
-          width: 100%; } }
-      @media screen and (max-width: 736px) {
-        .spotlights section a.image.media {
-          background-size: contain;
-          background-position: center bottom;
-          height: 350px;
-          background-position: center center; } }
-      @media screen and (max-width: 480px) {
-        .spotlights section a.image.media {
-          background-size: contain;
-          height: 260px; } }
-      .spotlights section a.image.media div.media-overlay {
+      background-position: center center !important;
+      background-size: cover !important;
+      overflow: hidden; }
+      .spotlights .wall .brick:hover .brick-button {
+        opacity: 1;
+        transition: all 0.2s ease-in-out; }
+      .spotlights .wall .brick:hover .brick-excerpt {
+        bottom: 0;
+        transition: all 0.2s ease-in-out; }
+      .spotlights .wall .brick:hover .brick-overlay {
+        transform: translateY(0%);
+        transition: all 0.4s ease-in-out; }
+      .spotlights .wall .brick.brick-lg {
+        height: calc(100vh - 3.5em);
+        background: blue; }
+      .spotlights .wall .brick.brick-sm {
+        height: calc(50vh - 1.75em);
+        background: red; }
+      .spotlights .wall .brick .brick-excerpt {
+        position: absolute;
+        z-index: 1;
+        padding: 30px;
+        width: 100%;
+        bottom: -50px;
+        transition: all 0.2s ease-in-out; }
+        .spotlights .wall .brick .brick-excerpt .brick-title {
+          color: white;
+          margin-bottom: 0em;
+          font-size: 2em; }
+        .spotlights .wall .brick .brick-excerpt .brick-lead {
+          color: white;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          display: block;
+          margin-bottom: 1em;
+          font-size: 1.5em;
+          line-height: 1.5em; }
+      .spotlights .wall .brick .brick-button {
+        opacity: 0;
+        transition: all 0.2s ease-in-out; }
+      .spotlights .wall .brick .brick-shadow {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        bottom: 0;
+        background: linear-gradient(to top, #000 0, rgba(0, 0, 0, 0.5) 30%, transparent 100%);
+        opacity: 1; }
+      .spotlights .wall .brick .brick-radialgradient {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: radial-gradient(ellipse at center, transparent 0%, black 100%);
+        opacity: 0.2; }
+      .spotlights .wall .brick .brick-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
         width: 100%;
         height: 100%;
         background: rgba(0, 0, 0, 0.5);
-        opacity: 0;
-        transition: all .3s; }
-      .spotlights section a.image.media img.media-icon {
-        display: block !important;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80px;
-        height: auto;
-        opacity: 0;
-        transition: all .3s; }
-      .spotlights section a.image.media:hover div.media-overlay {
-        opacity: .5;
-        transition: all .3s; }
-      .spotlights section a.image.media:hover img.media-icon {
-        width: 90px;
-        transition: all .3s;
-        opacity: 1; }
-    .spotlights section .close-details {
-      position: absolute;
-      top: 30px;
-      right: 30px;
-      width: 30px;
-      height: auto;
-      cursor: pointer; }
-      @media screen and (max-width: 980px) {
-        .spotlights section .close-details {
-          top: calc(50vh + 15px);
-          right: 64px; } }
-      @media screen and (max-width: 480px) {
-        .spotlights section .close-details {
-          right: 16px; } }
-    .spotlights section .content {
-      position: relative; }
-      .spotlights section .content .inner {
-        position: relative; }
-        .spotlights section .content .inner .details {
-          position: absolute;
-          top: 3.5em;
-          width: 100%;
-          -webkit-column-count: 2;
-          /* Chrome, Safari, Opera */
-          -moz-column-count: 2;
-          /* Firefox */
-          column-count: 2;
-          font-family: 'Montserrat';
-          list-style: none;
-          padding-left: 0; }
-          .spotlights section .content .inner .details.is-hidden {
-            visibility: hidden;
-            display: none;
-            z-index: -10; }
-          .spotlights section .content .inner .details li {
-            color: black;
-            padding-left: 0; }
+        transform: translateY(100%);
+        transition: all 0.4s ease-in-out; }
 
 .numbers {
   background-color: #e0e0e0 !important; }

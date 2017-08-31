@@ -41,97 +41,96 @@ jQuery(document).ready(function($)
 
 
 	//BOUTONS PROJETS
-	$(".spotlights .button").on('click', function(e) {
+	// $(".spotlights .button").on('click', function(e) {
 		
 
-		var $isPresent = $('.is-present');
-		//$('.is-present').trigger("click");
-		if($isPresent.length > 0)
-		{
-			console.log('supérieur à 0');
-			var $openProject = $('.is-present').parent(),
-				$openprojectDesc = $openProject.find('p'),
-				$openProjectActions = $openProject.find('.actions'),
-				$openProjectUl = $openProject.find('.details'),
-				$openProjectUlLi = $openProject.find('.details li'),
-				$openProjectCloseDetails = $('.is-present');
+	// 	var $isPresent = $('.is-present');
+	// 	if($isPresent.length > 0)
+	// 	{
+	// 		console.log('supérieur à 0');
+	// 		var $openProject = $('.is-present').parent(),
+	// 			$openprojectDesc = $openProject.find('p'),
+	// 			$openProjectActions = $openProject.find('.actions'),
+	// 			$openProjectUl = $openProject.find('.details'),
+	// 			$openProjectUlLi = $openProject.find('.details li'),
+	// 			$openProjectCloseDetails = $('.is-present');
 
-			var $project = $(this).parent().parent().parent().parent().parent();
-			$projectDesc = $project.find('p');
-			$projectActions = $project.find('.actions');
-			$projectUl = $project.find('.details.is-hidden');
-			$projectUlLi = $project.find('.details li');
-			$projectCloseDetails = $project.find('.close-details');
+	// 		var $project = $(this).parent().parent().parent().parent().parent();
+	// 		$projectDesc = $project.find('p');
+	// 		$projectActions = $project.find('.actions');
+	// 		$projectUl = $project.find('.details.is-hidden');
+	// 		$projectUlLi = $project.find('.details li');
+	// 		$projectCloseDetails = $project.find('.close-details');
 
-				tlProjectOpening
-					.set($openProject, {className: '-=is-open'})
-					.to($openProjectCloseDetails, 0.3, {autoAlpha: 0})
-					.staggerTo($openProjectUlLi, 0.1, {autoAlpha: 0}, 0)
-					.set($openProjectCloseDetails, {className: '-=is-present'})
-					.set($openProjectUl, {className: '+=is-hidden'})
-					.to($openprojectDesc, 0.3, {autoAlpha: 1, y: '0px'})
-					.to($openProjectActions, 0.3, {autoAlpha: 1, y: '0px'})
+	// 			tlProjectOpening
+	// 				.set($openProject, {className: '-=is-open'})
+	// 				.to($openProjectCloseDetails, 0.3, {autoAlpha: 0})
+	// 				.staggerTo($openProjectUlLi, 0.1, {autoAlpha: 0}, 0)
+	// 				.set($openProjectCloseDetails, {className: '-=is-present'})
+	// 				.set($openProjectUl, {className: '+=is-hidden'})
+	// 				.to($openprojectDesc, 0.3, {autoAlpha: 1, y: '0px'})
+	// 				.to($openProjectActions, 0.3, {autoAlpha: 1, y: '0px'})
 
-					.set([$projectUlLi], {autoAlpha: 0})
-					.to($projectActions, 0.3, {autoAlpha: 0, y: '15px'})
-					.to($projectDesc, 0.3, {autoAlpha: 0, y: '15px'})
-					.set($project, {className: '+=is-open'})
-					.set($projectUl, {className: '-=is-hidden'})
-					.set($projectCloseDetails, {className: '+=is-present'})
-					.staggerTo($projectUlLi, 0.3, {autoAlpha: 1}, 0.2, '+=0.7')
-					.to($projectCloseDetails, 0.3, {autoAlpha: 1}, '+=1.0');
-					;
+	// 				.set([$projectUlLi], {autoAlpha: 0})
+	// 				.to($projectActions, 0.3, {autoAlpha: 0, y: '15px'})
+	// 				.to($projectDesc, 0.3, {autoAlpha: 0, y: '15px'})
+	// 				.set($project, {className: '+=is-open'})
+	// 				.set($projectUl, {className: '-=is-hidden'})
+	// 				.set($projectCloseDetails, {className: '+=is-present'})
+	// 				.staggerTo($projectUlLi, 0.3, {autoAlpha: 1}, 0.2, '+=0.7')
+	// 				.to($projectCloseDetails, 0.3, {autoAlpha: 1}, '+=1.0');
+	// 				;
 
-			$isPresent = null;		
+	// 		$isPresent = null;		
 
-			event.preventDefault();
-		}
-		else
-		{
-			var $project = $(this).parent().parent().parent().parent().parent();
-			$projectDesc = $project.find('p');
-			$projectActions = $project.find('.actions');
-			$projectUl = $project.find('.details.is-hidden');
-			$projectUlLi = $project.find('.details li');
-			$projectCloseDetails = $project.find('.close-details');
+	// 		event.preventDefault();
+	// 	}
+	// 	else
+	// 	{
+	// 		var $project = $(this).parent().parent().parent().parent().parent();
+	// 		$projectDesc = $project.find('p');
+	// 		$projectActions = $project.find('.actions');
+	// 		$projectUl = $project.find('.details.is-hidden');
+	// 		$projectUlLi = $project.find('.details li');
+	// 		$projectCloseDetails = $project.find('.close-details');
 
-			console.log('égale à 0');
-			tlProjectOpening
-				.set([$projectUlLi], {autoAlpha: 0})
-				.to($projectActions, 0.3, {autoAlpha: 0, y: '15px'})
-				.to($projectDesc, 0.3, {autoAlpha: 0, y: '15px'})
-				.set($project, {className: '+=is-open'})
-				.set($projectUl, {className: '-=is-hidden'})
-				.set($projectCloseDetails, {className: '+=is-present'})
-				.staggerTo($projectUlLi, 0.3, {autoAlpha: 1}, 0.2, '+=0.7')
-				.to($projectCloseDetails, 0.3, {autoAlpha: 1}, '+=1.0');
+	// 		console.log('égale à 0');
+	// 		tlProjectOpening
+	// 			.set([$projectUlLi], {autoAlpha: 0})
+	// 			.to($projectActions, 0.3, {autoAlpha: 0, y: '15px'})
+	// 			.to($projectDesc, 0.3, {autoAlpha: 0, y: '15px'})
+	// 			.set($project, {className: '+=is-open'})
+	// 			.set($projectUl, {className: '-=is-hidden'})
+	// 			.set($projectCloseDetails, {className: '+=is-present'})
+	// 			.staggerTo($projectUlLi, 0.3, {autoAlpha: 1}, 0.2, '+=0.7')
+	// 			.to($projectCloseDetails, 0.3, {autoAlpha: 1}, '+=1.0');
 
-			$isPresent = null;		
+	// 		$isPresent = null;		
 
-			event.preventDefault();
-		}
-	});
+	// 		event.preventDefault();
+	// 	}
+	// });
 
-	$(".close-details").on('click', function(e) {
-		closeProject($(this));
-		var $project = $(this).parent();
-		$projectDesc = $project.find('p');
-		$projectActions = $project.find('.actions');
-		$projectUl = $project.find('.details');
-		$projectUlLi = $project.find('.details li');
-		$projectCloseDetails = $(this);
+	// $(".close-details").on('click', function(e) {
+	// 	closeProject($(this));
+	// 	var $project = $(this).parent();
+	// 	$projectDesc = $project.find('p');
+	// 	$projectActions = $project.find('.actions');
+	// 	$projectUl = $project.find('.details');
+	// 	$projectUlLi = $project.find('.details li');
+	// 	$projectCloseDetails = $(this);
 
-		tlProjectOpening
-			.set($project, {className: '-=is-open'})
-			.to($projectCloseDetails, 0.3, {autoAlpha: 0})
-			.staggerTo($projectUlLi, 0.1, {autoAlpha: 0}, 0)
-			.set($projectCloseDetails, {className: '-=is-present'})
-			.set($projectUl, {className: '+=is-hidden'})
-			.to($projectDesc, 0.3, {autoAlpha: 1, y: '0px'})
-			.to($projectActions, 0.3, {autoAlpha: 1, y: '0px'});
+	// 	tlProjectOpening
+	// 		.set($project, {className: '-=is-open'})
+	// 		.to($projectCloseDetails, 0.3, {autoAlpha: 0})
+	// 		.staggerTo($projectUlLi, 0.1, {autoAlpha: 0}, 0)
+	// 		.set($projectCloseDetails, {className: '-=is-present'})
+	// 		.set($projectUl, {className: '+=is-hidden'})
+	// 		.to($projectDesc, 0.3, {autoAlpha: 1, y: '0px'})
+	// 		.to($projectActions, 0.3, {autoAlpha: 1, y: '0px'});
 
-		event.preventDefault();
-	});
+	// 	event.preventDefault();
+	// });
 
 	function closeProject(e){
 

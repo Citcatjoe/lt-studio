@@ -47,7 +47,7 @@
 			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<!-- End Google Tag Manager (noscript) -->
 
-			<div class="overlay"></div>
+			<!-- <div class="overlay"></div> -->
 			<div class="infos"></div>
 
 			<div class="nav-mobile">
@@ -153,7 +153,80 @@
 
 				<!-- One -->
 					<section id="two" class="spotlights wrapper style2">
-						<section>
+						<!-- <h1>Projects</h1> -->
+						<div class="wall">
+							<article class="brick brick-lg" style="background: url('images/thumb-boldor.jpg');">
+								<div class="brick-excerpt">
+									<h1 class="brick-title">Brick title</h1>
+									<span class="brick-lead">
+										We need partner of every size, i every country, with genuine love for every crop that we protect
+									</span>
+									<ul class="brick-button actions">
+										<li><a href="#" class="button">Détails</a></li>
+									</ul>
+								</div>
+								<div class="brick-radialgradient"></div>
+								<div class="brick-shadow"></div>
+								<div class="brick-overlay"></div>
+							</article>
+							<article class="brick brick-sm" style="background: url('images/thumb-montre8h.jpg');">
+								<div class="brick-excerpt">
+									<h1 class="brick-title">Brick title</h1>
+									<span class="brick-lead">
+										We need partner of every size, i every country, with genuine love for every crop that we protect
+									</span>
+									<ul class="brick-button actions">
+										<li><a href="#" class="button">Détails</a></li>
+									</ul>
+								</div>
+								<div class="brick-radialgradient"></div>
+								<div class="brick-shadow"></div>
+								<div class="brick-overlay"></div>
+							</article>
+							<article class="brick brick-sm" style="background: url('images/thumb-medgeno.jpg');">
+								<div class="brick-excerpt">
+									<h1 class="brick-title">Brick title</h1>
+									<span class="brick-lead">
+										We need partner of every size, i every country, with genuine love for every crop that we protect
+									</span>
+									<ul class="brick-button actions">
+										<li><a href="#" class="button">Détails</a></li>
+									</ul>
+								</div>
+								<div class="brick-radialgradient"></div>
+								<div class="brick-shadow"></div>
+								<div class="brick-overlay"></div>
+							</article>
+							<article class="brick brick-lg">
+								<div class="brick-excerpt">
+									<h1 class="brick-title">Brick title</h1>
+									<span class="brick-lead">
+										We need partner of every size, i every country, with genuine love for every crop that we protect
+									</span>
+									<ul class="brick-button actions">
+										<li><a href="#" class="button">Détails</a></li>
+									</ul>
+								</div>
+								<div class="brick-radialgradient"></div>
+								<div class="brick-shadow"></div>
+								<div class="brick-overlay"></div>
+							</article>
+							<article class="brick brick-lg">
+								<div class="brick-excerpt">
+									<h1 class="brick-title">Brick title</h1>
+									<span class="brick-lead">
+										We need partner of every size, i every country, with genuine love for every crop that we protect
+									</span>
+									<ul class="brick-button actions">
+										<li><a href="#" class="button">Détails</a></li>
+									</ul>
+								</div>
+								<div class="brick-radialgradient"></div>
+								<div class="brick-shadow"></div>
+								<div class="brick-overlay"></div>
+							</article>
+						</div>
+						<!-- <section>
 							<a href="https://www.youtube.com/watch?v=tnSroWaczL4" class="image media" data-fancybox ><img src="images/x-medecine-genomique.jpg" alt=""/>
 								<div class="media-overlay"></div>
 								<img src="images/play-01.svg" alt="" class="media-icon">
@@ -277,7 +350,7 @@
 								</div>
 							</div>
 							<img class="close-details" src="images/cross-01.svg" alt="">
-						</section>
+						</section> -->
 					</section>
 
 					<section class="parallax">
@@ -498,8 +571,10 @@
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/macy.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/custom.js"></script>
+			<script src="assets/js/spotlights.js"></script>
 			<script src="assets/js/parallax.js"></script>
 			<script src="assets/js/contact.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>

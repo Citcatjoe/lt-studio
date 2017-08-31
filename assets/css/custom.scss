@@ -524,169 +524,277 @@ ul.actions
 {
 	background: $light1 !important;
 
-	section
+	.wall 
 	{
-		
-		overflow: hidden;
-		background-image: linear-gradient(to right, $light2 50%, $color1 50%);
-	    background-size: 200% 100%;
-	    background-position: 0% 0;
-	    transition: background-position .5s;
-	    transition-timing-function: cubic-bezier(0.590, 0.110, 0.855, 0.360) !important;
-	    position: relative;
+		width: 100%; 
 
-		&.is-open
-		{ 
-			background-position: 100% 0;
-		}
-
-		a.image.media
+		.brick 
 		{
-			background-position: center 25%;
-			background-repeat: no-repeat;
-			background-color: #d2d2d2;
-			//cursor: default;
-			width: 575px;
+			//background: red;
+			//height: 100vh;
+			//float: left;
 			position: relative;
-			outline: none !important;
-
-			@media screen and (max-width: 1200px) {
-			 	//background-position: center 25% !important;
-			}
-
-			@media screen and (max-width: 980px) {
-			 	background-size: contain;
-			 	//background-position: center 25% !important;
-			 	width: 100%;
-			}
-
-			@media screen and (max-width: 736px) {
-			 	background-size: contain;
-			 	background-position: center bottom;
-			 	height: 350px;
-			 	background-position: center center;
-			}
-
-			@media screen and (max-width: 480px) {
-			 	background-size: contain;
-			 	//background-position: center bottom;
-			 	height: 260px;
-			}
-
-			div.media-overlay
-			{
-				width: 100%;
-				height: 100%;
-				background: rgba(0, 0, 0, .5);
-				opacity: 0;
-				transition: all .3s;
-
-				
-			}
-			img.media-icon
-			{
-				display: block !important;
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				width: 80px;
-				height: auto;
-				opacity: 0;
-				transition: all .3s;
-
-			}
+			background-position: center center !important;
+			background-size: cover !important;
+			overflow: hidden;
 
 			&:hover
 			{
-				div.media-overlay
-				{
-					opacity: .5;
-					transition: all .3s;
-				}
-				img.media-icon
-				{
-					width: 90px;
-					transition: all .3s;
-					opacity: 1;
-				}
-			}
-		}
-
-		.close-details
-		{
-			position: absolute;
-			top: 30px;
-			right: 30px;
-			width: 30px;
-			height: auto;
-			cursor: pointer;
-
-			@media screen and (max-width: 980px) {
-			 	top: calc(50vh + 15px);
-				right: 64px;
-
+				.brick-button { opacity: 1; transition: all 0.2s ease-in-out; }
+				.brick-excerpt { bottom: 0; transition: all 0.2s ease-in-out; };
+				.brick-overlay { transform: translateY(0%); transition: all 0.4s ease-in-out; }
 			}
 
-			@media screen and (max-width: 480px) {
-			 	right: 16px;
-
-			}
-		}
-
-		.content
-		{
-			position: relative;
-
-			.inner 
+			&.brick-lg
 			{
-				position: relative;
-				// p 
-				// {
-				// 	&.is-hidden
-				// 	{
-				// 		display: none;
-				// 	}
-				// }
-				// .actions 
-				// {
-				// 	&.is-hidden
-				// 	{
-				// 		display: none;
-				// 	}
-				// }	
-				.details
+				//height: 100vh;
+				height: calc(100vh - 3.5em);
+				background: blue;
+			}
+
+			&.brick-sm
+			{
+				//height: 50vh;
+				height: calc(50vh - 1.75em);
+				background: red;
+			}
+
+			.brick-excerpt
+			{
+				position: absolute;
+				z-index: 1;
+				padding: 30px;
+				width: 100%;
+				bottom: -50px;
+				transition: all 0.2s ease-in-out;
+
+				.brick-title
 				{
-					position: absolute;
-					top: 3.5em;
-					width: 100%;
-					//padding: 4em 5em 2em 5em;
-					-webkit-column-count: 2; /* Chrome, Safari, Opera */
-				    -moz-column-count: 2; /* Firefox */
-				    column-count: 2;
-				    font-family: 'Montserrat';
-				    list-style: none;
-				    padding-left: 0;
-
-				    &.is-hidden
-				    {
-				    	visibility: hidden;
-				    	display: none;
-				    	z-index: -10;
-				    }
-
-					li 
-					{
-						//display: none;
-						color: black;
-						padding-left: 0;
-					}
+					color: white;
+					margin-bottom: 0em;
+					font-size: 2em;
 				}
 
-				
-			}	
+				.brick-lead
+				{
+					color: white;
+					-webkit-font-smoothing: antialiased; 
+   					-moz-osx-font-smoothing: grayscale;
+   					display: block;
+   					margin-bottom: 1em;
+   					font-size: 1.5em;
+   					line-height: 1.5em;
+				}
+			}
+
+			.brick-button 
+			{
+				opacity: 0;
+				transition: all 0.2s ease-in-out;
+			}
+
+			.brick-shadow
+			{
+				position: absolute;
+				width: 100%;
+				height: 50%;
+				bottom: 0;
+				background: linear-gradient(to top, #000 0, rgba(0, 0, 0, 0.5) 30%, transparent 100%);
+				opacity: 1;
+			}
+
+			.brick-radialgradient
+			{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: radial-gradient(ellipse at center, transparent 0%, black 100%);
+				opacity: 0.2;
+			}
+
+			.brick-overlay
+			{
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, .5);
+				transform: translateY(100%);
+				transition: all 0.4s ease-in-out;
+			}
 		}
 	}
+
+	// section
+	// {
+		
+	// 	overflow: hidden;
+	// 	background-image: linear-gradient(to right, $light2 50%, $color1 50%);
+	//     background-size: 200% 100%;
+	//     background-position: 0% 0;
+	//     transition: background-position .5s;
+	//     transition-timing-function: cubic-bezier(0.590, 0.110, 0.855, 0.360) !important;
+	//     position: relative;
+
+	// 	&.is-open
+	// 	{ 
+	// 		background-position: 100% 0;
+	// 	}
+
+	// 	a.image.media
+	// 	{
+	// 		background-position: center 25%;
+	// 		background-repeat: no-repeat;
+	// 		background-color: #d2d2d2;
+	// 		//cursor: default;
+	// 		width: 575px;
+	// 		position: relative;
+	// 		outline: none !important;
+
+	// 		@media screen and (max-width: 1200px) {
+	// 		 	//background-position: center 25% !important;
+	// 		}
+
+	// 		@media screen and (max-width: 980px) {
+	// 		 	background-size: contain;
+	// 		 	//background-position: center 25% !important;
+	// 		 	width: 100%;
+	// 		}
+
+	// 		@media screen and (max-width: 736px) {
+	// 		 	background-size: contain;
+	// 		 	background-position: center bottom;
+	// 		 	height: 350px;
+	// 		 	background-position: center center;
+	// 		}
+
+	// 		@media screen and (max-width: 480px) {
+	// 		 	background-size: contain;
+	// 		 	//background-position: center bottom;
+	// 		 	height: 260px;
+	// 		}
+
+	// 		div.media-overlay
+	// 		{
+	// 			width: 100%;
+	// 			height: 100%;
+	// 			background: rgba(0, 0, 0, .5);
+	// 			opacity: 0;
+	// 			transition: all .3s;
+
+				
+	// 		}
+	// 		img.media-icon
+	// 		{
+	// 			display: block !important;
+	// 			position: absolute;
+	// 			top: 50%;
+	// 			left: 50%;
+	// 			transform: translate(-50%, -50%);
+	// 			width: 80px;
+	// 			height: auto;
+	// 			opacity: 0;
+	// 			transition: all .3s;
+
+	// 		}
+
+	// 		&:hover
+	// 		{
+	// 			div.media-overlay
+	// 			{
+	// 				opacity: .5;
+	// 				transition: all .3s;
+	// 			}
+	// 			img.media-icon
+	// 			{
+	// 				width: 90px;
+	// 				transition: all .3s;
+	// 				opacity: 1;
+	// 			}
+	// 		}
+	// 	}
+
+	// 	.close-details
+	// 	{
+	// 		position: absolute;
+	// 		top: 30px;
+	// 		right: 30px;
+	// 		width: 30px;
+	// 		height: auto;
+	// 		cursor: pointer;
+
+	// 		@media screen and (max-width: 980px) {
+	// 		 	top: calc(50vh + 15px);
+	// 			right: 64px;
+
+	// 		}
+
+	// 		@media screen and (max-width: 480px) {
+	// 		 	right: 16px;
+
+	// 		}
+	// 	}
+
+	// 	.content
+	// 	{
+	// 		position: relative;
+
+	// 		.inner 
+	// 		{
+	// 			position: relative;
+	// 			// p 
+	// 			// {
+	// 			// 	&.is-hidden
+	// 			// 	{
+	// 			// 		display: none;
+	// 			// 	}
+	// 			// }
+	// 			// .actions 
+	// 			// {
+	// 			// 	&.is-hidden
+	// 			// 	{
+	// 			// 		display: none;
+	// 			// 	}
+	// 			// }	
+	// 			.details
+	// 			{
+	// 				position: absolute;
+	// 				top: 3.5em;
+	// 				width: 100%;
+	// 				//padding: 4em 5em 2em 5em;
+	// 				-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	// 			    -moz-column-count: 2; /* Firefox */
+	// 			    column-count: 2;
+	// 			    font-family: 'Montserrat';
+	// 			    list-style: none;
+	// 			    padding-left: 0;
+
+	// 			    &.is-hidden
+	// 			    {
+	// 			    	visibility: hidden;
+	// 			    	display: none;
+	// 			    	z-index: -10;
+	// 			    }
+
+	// 				li 
+	// 				{
+	// 					//display: none;
+	// 					color: black;
+	// 					padding-left: 0;
+	// 				}
+	// 			}
+
+				
+	// 		}	
+	// 	}
+	// }
 
 	
 }

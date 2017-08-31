@@ -7,7 +7,7 @@
 		"uuidString": "963F3CE8-22AC-4226-A67F-916BDFF160A9"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "25900",
 "files": {
 	"\/android-icon-144x144.png": {
 		"ft": 32768,
@@ -303,6 +303,7 @@
 		},
 	"\/assets\/js\/contact.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/contact-min.js",
@@ -312,6 +313,7 @@
 		},
 	"\/assets\/js\/custom.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/custom-min.js",
@@ -321,6 +323,7 @@
 		},
 	"\/assets\/js\/hero.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/hero-min.js",
@@ -330,6 +333,7 @@
 		},
 	"\/assets\/js\/jquery.counterup.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/jquery.counterup.min-min.js",
@@ -339,6 +343,7 @@
 		},
 	"\/assets\/js\/jquery.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/jquery.min-min.js",
@@ -348,6 +353,7 @@
 		},
 	"\/assets\/js\/jquery.scrollex.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/jquery.scrollex.min-min.js",
@@ -357,6 +363,7 @@
 		},
 	"\/assets\/js\/jquery.scrolly.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/jquery.scrolly.min-min.js",
@@ -364,8 +371,19 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/macy.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/macy-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/main.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/main-min.js",
@@ -375,6 +393,7 @@
 		},
 	"\/assets\/js\/parallax.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/parallax-min.js",
@@ -384,6 +403,7 @@
 		},
 	"\/assets\/js\/skel.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/skel.min-min.js",
@@ -391,8 +411,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/spotlights-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/spotlights-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/spotlights.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/spotlights-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/util.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/util-min.js",
@@ -402,6 +443,7 @@
 		},
 	"\/assets\/js\/viewport.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/viewport-min.js",
@@ -1136,6 +1178,36 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/thumb-boldor.jpg": {
+		"ft": 16384,
+		"iS": 113521,
+		"oA": 0,
+		"oAP": "\/images\/thumb-boldor.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/thumb-medgeno.jpg": {
+		"ft": 16384,
+		"iS": 83316,
+		"oA": 0,
+		"oAP": "\/images\/thumb-medgeno.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/thumb-montre8h.jpg": {
+		"ft": 16384,
+		"iS": 175487,
+		"oA": 0,
+		"oAP": "\/images\/thumb-montre8h.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/welcome.jpg": {
 		"ft": 16384,
 		"iS": 378747,
@@ -1304,6 +1376,12 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/prod\/.~lock.Native Stories.docx#": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/.~lock.Native Stories.docx#",
+		"oF": 0
+		},
 	"\/prod\/08 18 Le Temps 02 (1).jpg": {
 		"ft": 16384,
 		"iS": 3353765,
@@ -1430,7 +1508,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 522229332,
-	"displayValue": "showcase10",
+	"displayValue": "lt-studio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-leo"
 	},
@@ -1836,6 +1914,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -1843,6 +1925,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -1940,6 +2026,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -1959,6 +2049,10 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -2087,6 +2181,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -2632,6 +2730,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -2700,6 +2802,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -2739,6 +2845,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -2790,7 +2900,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "localhost:8888\/showcase10",
+	"externalServerAddress": "localhost:8888\/lt-studio",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3372,6 +3482,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
