@@ -311,6 +311,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/custom-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/custom-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/custom.js": {
 		"ft": 64,
 		"ma": 0,
@@ -858,11 +868,11 @@
 		"oAP": "\/generic.html",
 		"oF": 0
 		},
-	"\/images\/cross-01.svg": {
+	"\/images\/close.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/cross-01.svg",
+		"oAP": "\/images\/close.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1188,6 +1198,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/thumb-boldor2.jpg": {
+		"ft": 16384,
+		"iS": 757525,
+		"oA": 0,
+		"oAP": "\/images\/thumb-boldor2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/thumb-medgeno.jpg": {
 		"ft": 16384,
 		"iS": 83316,
@@ -1324,6 +1344,18 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/load\/boldor.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/load\/boldor.html",
+		"oF": 0
+		},
+	"\/load\/medgeno.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/load\/medgeno.html",
+		"oF": 0
+		},
 	"\/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -1375,12 +1407,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/prod\/.~lock.Native Stories.docx#": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prod\/.~lock.Native Stories.docx#",
-		"oF": 0
 		},
 	"\/prod\/08 18 Le Temps 02 (1).jpg": {
 		"ft": 16384,

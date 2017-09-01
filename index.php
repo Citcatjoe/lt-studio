@@ -80,6 +80,68 @@
 				</div>
 			</section>
 
+			<section class="article-reader">
+
+				<!-- <div class="article-reader-header" >
+					<div class="article-reader-header-inner" style="background: url('images/thumb-boldor2.jpg');">
+						<div class="article-reader-header-shadow"></div>
+						<div class="article-reader-header-excerpt">
+							<span class="article-reader-header-excerpt-lead">
+								We need partner of every size, i every country, with genuine love for every crop that we protect
+							</span>
+							<ul class="article-reader-header-excerpt-button actions">
+								<li><a href="#" class="button">Visiter la page</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="article-reader-body">
+					<div class="article-reader-body-inner">
+						<h2 class="article-reader-body-title">
+							Mon joli titre ici
+						</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam debitis ratione corporis at nisi porro, modi veniam quos ipsam repellat quis quibusdam labore nulla eligendi. Iste eos magni quae ratione.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore necessitatibus hic dolore repellat dicta, temporibus iste laudantium esse quaerat, optio ipsum debitis unde laboriosam nisi obcaecati eligendi enim doloribus, odio!
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam debitis ratione corporis at nisi porro, modi veniam quos ipsam repellat quis quibusdam labore nulla eligendi. Iste eos magni quae ratione.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore necessitatibus hic dolore repellat dicta, temporibus iste laudantium esse quaerat, optio ipsum debitis unde laboriosam nisi obcaecati eligendi enim doloribus, odio!
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam debitis ratione corporis at nisi porro, modi veniam quos ipsam repellat quis quibusdam labore nulla eligendi. Iste eos magni quae ratione.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore necessitatibus hic dolore repellat dicta, temporibus iste laudantium esse quaerat, optio ipsum debitis unde laboriosam nisi obcaecati eligendi enim doloribus, odio!
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum.
+						</p>
+					</div>
+
+				</div> -->
+			</section>
+
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -146,10 +208,10 @@
 						</div>
 					</section>
 
-					<section class="parallax">
+					<!-- <section class="parallax">
 						<div class="parallax-trigger-one"></div>
 						<div class="parallax-bg parallax-bg-one"></div>
-					</section>
+					</section> -->
 
 				<!-- One -->
 					<section id="two" class="spotlights wrapper style2">
@@ -162,10 +224,10 @@
 										We need partner of every size, i every country, with genuine love for every crop that we protect
 									</span>
 									<ul class="brick-button actions">
-										<li><a href="#" class="button">Détails</a></li>
+										<li><a href="#" class="button" data-url="boldor.html">Détails</a></li>
 									</ul>
 								</div>
-								<div class="brick-radialgradient"></div>
+								<!-- <div class="brick-radialgradient"></div> -->
 								<div class="brick-shadow"></div>
 								<div class="brick-overlay"></div>
 							</article>
@@ -179,7 +241,7 @@
 										<li><a href="#" class="button">Détails</a></li>
 									</ul>
 								</div>
-								<div class="brick-radialgradient"></div>
+								<!-- <div class="brick-radialgradient"></div> -->
 								<div class="brick-shadow"></div>
 								<div class="brick-overlay"></div>
 							</article>
@@ -190,173 +252,21 @@
 										We need partner of every size, i every country, with genuine love for every crop that we protect
 									</span>
 									<ul class="brick-button actions">
-										<li><a href="#" class="button">Détails</a></li>
+										<li><a href="#" class="button" data-url="medgeno.html">Détails</a></li>
 									</ul>
 								</div>
-								<div class="brick-radialgradient"></div>
-								<div class="brick-shadow"></div>
-								<div class="brick-overlay"></div>
-							</article>
-							<article class="brick brick-lg">
-								<div class="brick-excerpt">
-									<h1 class="brick-title">Brick title</h1>
-									<span class="brick-lead">
-										We need partner of every size, i every country, with genuine love for every crop that we protect
-									</span>
-									<ul class="brick-button actions">
-										<li><a href="#" class="button">Détails</a></li>
-									</ul>
-								</div>
-								<div class="brick-radialgradient"></div>
-								<div class="brick-shadow"></div>
-								<div class="brick-overlay"></div>
-							</article>
-							<article class="brick brick-lg">
-								<div class="brick-excerpt">
-									<h1 class="brick-title">Brick title</h1>
-									<span class="brick-lead">
-										We need partner of every size, i every country, with genuine love for every crop that we protect
-									</span>
-									<ul class="brick-button actions">
-										<li><a href="#" class="button">Détails</a></li>
-									</ul>
-								</div>
-								<div class="brick-radialgradient"></div>
+								<!-- <div class="brick-radialgradient"></div> -->
 								<div class="brick-shadow"></div>
 								<div class="brick-overlay"></div>
 							</article>
 						</div>
-						<!-- <section>
-							<a href="https://www.youtube.com/watch?v=tnSroWaczL4" class="image media" data-fancybox ><img src="images/x-medecine-genomique.jpg" alt=""/>
-								<div class="media-overlay"></div>
-								<img src="images/play-01.svg" alt="" class="media-icon">
-							</a>
-							<div class="content">
-								<div class="inner">
-									<h2>Dossier médecine génomique</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="#" class="button">Détails</a></li>
-									</ul>
-									<ul class="details is-hidden">
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-									</ul>
-								</div>
-							</div>
-							<img class="close-details" src="images/cross-01.svg" alt="">
-						</section> 
-						<section>
-							<a href="docs/timeline-jubile.pdf" class="image media" data-fancybox ><img src="images/x-timeline.jpg" alt=""/>
-								<div class="media-overlay"></div>
-								<img src="images/eye-01.svg" alt="" class="media-icon">
-							</a>
-							<div class="content">
-								<div class="inner">
-									<h2>Timeline jublilé</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="#" class="button">Détails</a></li>
-									</ul>
-									<ul class="details is-hidden">
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-									</ul>
-								</div>
-							</div>
-							<img class="close-details" src="images/cross-01.svg" alt="">
-						</section>
-						<section>
-							<a href="images/x-article-sponso-2.jpg" class="image media" data-fancybox ><img src="images/x-article-sponso.jpg" alt=""/>
-								<div class="media-overlay"></div>
-								<img src="images/eye-01.svg" alt="" class="media-icon">
-							</a>
-							<div class="content">
-								<div class="inner">
-									<h2>Article sponsorisé</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="#" class="button">Détails</a></li>
-									</ul>
-									<ul class="details is-hidden">
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-									</ul>
-								</div>
-							</div>
-							<img class="close-details" src="images/cross-01.svg" alt="">
-						</section>
-						<section>
-							<a href="images/x-longread-1.jpg" data-caption="Article visible en intégralité à l'adresse suivante: https://labs.letemps.ch/interactive/2016/montre-suisse/" class="image media" data-fancybox="longread" ><img src="images/x-longread.jpg" alt=""/>
-								<div class="media-overlay"></div>
-								<img src="images/eye-01.svg" alt="" class="media-icon">
-							</a>
-							<a href="images/x-longread-2.jpg" class="image media" data-fancybox="longread" style="display:none;"></a>
-							<div class="content">
-							<a href="images/x-longread-3.jpg" class="image media" data-fancybox="longread" style="display:none;"></a>
-							<a href="images/x-longread-4.jpg" class="image media" data-fancybox="longread" style="display:none;"></a>
-							<div class="content">
-							<div class="content">
-								<div class="inner">
-									<h2>Longread sponsorisé (montre suisse?)</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="#" class="button">Détails</a></li>
-									</ul>
-									<ul class="details is-hidden">
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-									</ul>
-								</div>
-							</div>
-							<img class="close-details" src="images/cross-01.svg" alt="">
-						</section>
-						<section>
-							<a href="https://www.youtube.com/watch?v=X2osUU1d2Kc" class="image media" data-fancybox ><img src="images/x-banques.jpg" alt=""/>
-								<div class="media-overlay"></div>
-								<img src="images/play-01.svg" alt="" class="media-icon">
-							</a>
-							<div class="content">
-								<div class="inner">
-									<h2>Evénement banques vaudoises</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="#" class="button">Détails</a></li>
-									</ul>
-									<ul class="details is-hidden">
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-										<li><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp;&nbsp;Kurz bulletpoint hier!</li>
-									</ul>
-								</div>
-							</div>
-							<img class="close-details" src="images/cross-01.svg" alt="">
-						</section> -->
+					
 					</section>
 
-					<section class="parallax">
+					<!-- <section class="parallax">
 						<div class="parallax-trigger-two"></div>
 						<div class="parallax-bg parallax-bg-two"></div>
-					</section>
+					</section> -->
 
 					<section id="three" class="numbers wrapper style3 fade-up">
 						<div class="inner">

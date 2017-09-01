@@ -12,8 +12,14 @@ button.fancybox-button--play:after {
   opacity: 1 !important;
   left: 16px; }
 
+html {
+  background: #323232; }
+
 body {
-  position: relative; }
+  position: relative;
+  background: transparent; }
+  body.is-overflow-hidden {
+    overflow: hidden; }
 
 h1 {
   font-family: 'Montserrat';
@@ -323,7 +329,7 @@ ul.actions li a.button {
       background-position: center center !important;
       background-size: cover !important;
       overflow: hidden; }
-      .spotlights .wall .brick:hover .brick-button {
+      .spotlights .wall .brick:hover .brick-excerpt .brick-button {
         opacity: 1;
         transition: all 0.2s ease-in-out; }
       .spotlights .wall .brick:hover .brick-excerpt {
@@ -355,18 +361,11 @@ ul.actions li a.button {
           -moz-osx-font-smoothing: grayscale;
           display: block;
           margin-bottom: 1em;
-          font-size: 1.5em;
+          font-size: 1.2em;
           line-height: 1.5em; }
-      .spotlights .wall .brick .brick-button {
-        opacity: 0;
-        transition: all 0.2s ease-in-out; }
-      .spotlights .wall .brick .brick-shadow {
-        position: absolute;
-        width: 100%;
-        height: 50%;
-        bottom: 0;
-        background: linear-gradient(to top, #000 0, rgba(0, 0, 0, 0.5) 30%, transparent 100%);
-        opacity: 1; }
+        .spotlights .wall .brick .brick-excerpt .brick-button {
+          opacity: 0;
+          transition: all 0.2s ease-in-out; }
       .spotlights .wall .brick .brick-radialgradient {
         position: absolute;
         width: 100%;
@@ -377,6 +376,13 @@ ul.actions li a.button {
         bottom: 0;
         background: radial-gradient(ellipse at center, transparent 0%, black 100%);
         opacity: 0.2; }
+      .spotlights .wall .brick .brick-shadow {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        bottom: 0;
+        background: linear-gradient(to top, #000 0, rgba(0, 0, 0, 0.5) 30%, transparent 100%);
+        opacity: 1; }
       .spotlights .wall .brick .brick-overlay {
         position: absolute;
         top: 0;
@@ -387,7 +393,100 @@ ul.actions li a.button {
         height: 100%;
         background: rgba(0, 0, 0, 0.5);
         transform: translateY(100%);
-        transition: all 0.4s ease-in-out; }
+        transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1); }
+
+.article-reader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0; }
+  .article-reader.is-scrollable {
+    overflow-y: scroll; }
+    @media screen and (min-width: 900px) {
+      .article-reader.is-scrollable {
+        overflow-y: initial; } }
+  .article-reader .article-reader-header {
+    height: 100%;
+    width: 900px;
+    float: left;
+    background: #efefef; }
+    @media screen and (max-width: 1920px) {
+      .article-reader .article-reader-header {
+        width: 600px; } }
+    @media screen and (max-width: 1200px) {
+      .article-reader .article-reader-header {
+        width: 450px; } }
+    @media screen and (max-width: 900px) {
+      .article-reader .article-reader-header {
+        width: 100%;
+        height: 50%; } }
+    .article-reader .article-reader-header .article-reader-header-inner {
+      width: 100%;
+      height: 100%;
+      background: red;
+      background-position: center center !important;
+      background-size: cover !important;
+      position: relative; }
+      .article-reader .article-reader-header .article-reader-header-inner .article-reader-header-shadow {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        bottom: 0;
+        background: linear-gradient(to top, #000 0, rgba(0, 0, 0, 0.5) 30%, transparent 100%);
+        opacity: 1; }
+      .article-reader .article-reader-header .article-reader-header-inner .article-reader-header-excerpt {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        padding: 30px; }
+        .article-reader .article-reader-header .article-reader-header-inner .article-reader-header-excerpt .article-reader-header-excerpt-lead {
+          color: white;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          display: block;
+          margin-bottom: 1em;
+          font-size: 1.5em;
+          line-height: 1.5em; }
+        .article-reader .article-reader-header .article-reader-header-inner .article-reader-header-excerpt .article-reader-header-excerpt-button li a.button {
+          background: transparent;
+          color: white !important;
+          border: 2px solid white !important; }
+  .article-reader .article-reader-body {
+    height: 100%;
+    width: calc(100% - 900px);
+    float: left;
+    background: white;
+    position: relative; }
+    @media screen and (max-width: 1920px) {
+      .article-reader .article-reader-body {
+        width: calc(100% - 600px); } }
+    @media screen and (max-width: 1200px) {
+      .article-reader .article-reader-body {
+        width: calc(100% - 450px); } }
+    @media screen and (max-width: 900px) {
+      .article-reader .article-reader-body {
+        width: 100%;
+        height: auto; } }
+    .article-reader .article-reader-body.is-scrollable {
+      overflow-y: scroll; }
+      @media screen and (max-width: 900px) {
+        .article-reader .article-reader-body.is-scrollable {
+          overflow-y: initial; } }
+    .article-reader .article-reader-body .article-reader-body-inner {
+      padding: 100px 50px 50px 50px; }
+  .article-reader .article-back {
+    position: absolute;
+    left: 900px;
+    top: 50%;
+    width: 50px;
+    transform: translateX(-50%);
+    z-index: 5; }
+    @media screen and (max-width: 1920px) {
+      .article-reader .article-back {
+        left: 600px; } }
+    @media screen and (max-width: 1200px) {
+      .article-reader .article-back {
+        left: 450px; } }
 
 .numbers {
   background-color: #e0e0e0 !important; }

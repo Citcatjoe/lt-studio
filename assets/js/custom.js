@@ -9,11 +9,11 @@ jQuery(document).ready(function($)
 
 		
 
-	$(".logo").on('click', function(e) {
-		$('html, body').animate({
-		   scrollTop:$('#intro').offset().top
-		}, 1000);
-	});
+	// $(".logo").on('click', function(e) {
+	// 	$('html, body').animate({
+	// 	   scrollTop:$('#intro').offset().top
+	// 	}, 1000);
+	// });
 	
 	
 	// MENU MOBILE
@@ -33,12 +33,104 @@ jQuery(document).ready(function($)
 
 
 	var tlProjectOpening =  new TimelineMax();
-	var $projectUlLi = $('.details li'); 
-	var $projectCloseDetails = $('.close-details');
+	var $body = $('body');
+	var $wrapper = $('#wrapper');
+	var $articleReader = $('.article-reader');
+	var dataUrl;
+	
 
-	tlProjectOpening
-			.set([$projectUlLi, $projectCloseDetails], {autoAlpha: 0});
 
+
+	$(".spotlights a.button").on('click', function(e) {
+		
+		dataUrl = $(this).attr('data-url');
+		//alert(dataUrl);
+		$articleReader.load('../../load/' + dataUrl + '?' + Date.now(), function(){
+			fireAnim();
+		});
+		event.preventDefault();
+	});
+
+	function fireAnim(){
+
+		var $articleReaderHeader = $articleReader.find('.article-reader-header');
+		var $articleReaderBody = $articleReader.find('.article-reader-body');
+		var $articleReaderHeaderInner = $articleReaderHeader.find('.article-reader-header-inner');
+		var $articleReaderBodyInner = $articleReaderBody.find('.article-reader-body-inner');
+
+		if ($(window).width() > 1000) {
+			
+			if($wrapper.hasClass('is-faded'))
+			{
+				$wrapper.removeClass('is-faded');
+				tlProjectOpening
+					.to($articleReaderBody, 0, {css:{className:'-=is-scrollable'}})
+					.to($articleReader, 0, {css:{className:'-=is-scrollable'}})
+					.to([$articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut})
+					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
+					.to([$articleReaderHeader], 0.75, {yPercent: '100', ease: Power4.easeOut})
+					.to([$articleReaderBody], 0.75, {yPercent: '-100', ease: Power4.easeOut}, '-=0.75')
+					.to([$wrapper], 0.75, {autoAlpha: 1, scale: 1, ease: Power4.easeOut})
+					.to([$articleReader], 0, {zIndex: 0})
+					.to($body, 0, {css:{className:'-=is-overflow-hidden'}});
+			}
+			else
+			{
+				tlProjectOpening
+					.set([$articleReaderHeader], {yPercent: '100'})
+					.set([$articleReaderBody], {yPercent: '-100'})
+					.set([$articleReaderHeaderInner], {autoAlpha: 0})
+					.set([$articleReaderBodyInner], {autoAlpha: 0});
+
+				$wrapper.addClass('is-faded');
+				tlProjectOpening
+					.to($body, 0, {css:{className:'+=is-overflow-hidden'}})
+					.to([$articleReader], 0, {zIndex: 2})
+					.to([$wrapper], 0.75, {autoAlpha: 0.75, scale: 0.9, ease: Power4.easeOut})
+					.to([$articleReaderHeader, $articleReaderBody], 0.75, {yPercent: '0', ease: Power4.easeOut})
+					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
+					.to([$articleReaderBodyInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
+					.to($articleReader, 0, {css:{className:'+=is-scrollable'}})
+					.to($articleReaderBody, 0, {css:{className:'+=is-scrollable'}});
+			}
+		}
+		else
+		{
+			if($wrapper.hasClass('is-faded'))
+			{
+				$wrapper.removeClass('is-faded');
+				tlProjectOpening
+					.to($articleReaderBody, 0, {css:{className:'-=is-scrollable'}})
+					.to($articleReader, 0, {css:{className:'-=is-scrollable'}})
+					.to([$articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut})
+					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
+					.to([$articleReaderHeader], 0.75, {xPercent: '100', ease: Power4.easeOut})
+					.to([$articleReaderBody], 0.75, {xPercent: '-100', ease: Power4.easeOut}, '-=0.75')
+					.to([$wrapper], 0.75, {autoAlpha: 1, scale: 1, ease: Power4.easeOut})
+					.to([$articleReader], 0, {zIndex: 0})
+					.to($body, 0, {css:{className:'-=is-overflow-hidden'}});
+			}
+			else
+			{
+				tlProjectOpening
+				.set([$articleReaderHeader], {xPercent: '-100', yPercent: '0'})
+				.set([$articleReaderBody], {xPercent: '100', yPercent: '0'})
+				.set([$articleReaderHeaderInner], {autoAlpha: 0})
+				.set([$articleReaderBodyInner], {autoAlpha: 0});
+
+				$wrapper.addClass('is-faded');
+				tlProjectOpening
+					.to($body, 0, {css:{className:'+=is-overflow-hidden'}})
+					.to([$articleReader], 0, {zIndex: 2})
+					.to([$wrapper], 0.75, {autoAlpha: 0.75, scale: 0.9, ease: Power4.easeOut})
+					.to([$articleReaderHeader, $articleReaderBody], 0.75, {xPercent: '0', ease: Power4.easeOut})
+					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
+					.to([$articleReaderBodyInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
+					.to($articleReader, 0, {css:{className:'+=is-scrollable'}})
+					.to($articleReaderBody, 0, {css:{className:'+=is-scrollable'}});
+			}
+		}
+	}
 
 	//BOUTONS PROJETS
 	// $(".spotlights .button").on('click', function(e) {
