@@ -531,6 +531,8 @@ ul.actions
 .spotlights 
 {
 	background: $light1 !important;
+	
+
 
 	.wall 
 	{
@@ -558,6 +560,14 @@ ul.actions
 				//height: 100vh;
 				height: calc(100vh - 3.5em);
 				background: blue;
+
+				@media screen and (max-width: 1200px) {
+			 		height: 76vh;
+				}
+
+				@media screen and (max-width: 900px) {
+			 		height: 33vh;
+				}
 			}
 
 			&.brick-sm
@@ -565,6 +575,14 @@ ul.actions
 				//height: 50vh;
 				height: calc(50vh - 1.75em);
 				background: red;
+
+				@media screen and (max-width: 1200px) {
+			 		height: 38vh;
+				}
+
+				@media screen and (max-width: 900px) {
+			 		height: 33vh;
+				}
 			}
 
 			.brick-excerpt
@@ -926,7 +944,9 @@ ul.actions
 		{
 			padding: 100px 50px 50px 50px;
 
-
+			@media screen and (max-width: 900px) {
+			 	padding: 50px 50px 50px 50px;
+			}
 		}
 
 
@@ -940,6 +960,9 @@ ul.actions
 		width: 50px;
 		transform: translateX(-50%);
 		z-index: 5;
+		cursor: pointer;
+		border-radius: 50%;
+		box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 
 		@media screen and (max-width: 1920px) {
 	 		left: 600px;
@@ -948,6 +971,15 @@ ul.actions
 		@media screen and (max-width: 1200px) {
 	 		left: 450px;
 		}
+
+		@media screen and (max-width: 900px) {
+	 		display: none;
+		}
+	}
+
+	.article-back-mobile
+	{
+
 	}
 
 }

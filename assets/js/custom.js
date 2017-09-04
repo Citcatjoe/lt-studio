@@ -36,6 +36,7 @@ jQuery(document).ready(function($)
 	var $body = $('body');
 	var $wrapper = $('#wrapper');
 	var $articleReader = $('.article-reader');
+	
 	var dataUrl;
 	
 
@@ -51,12 +52,16 @@ jQuery(document).ready(function($)
 		event.preventDefault();
 	});
 
+
+
 	function fireAnim(){
 
 		var $articleReaderHeader = $articleReader.find('.article-reader-header');
 		var $articleReaderBody = $articleReader.find('.article-reader-body');
 		var $articleReaderHeaderInner = $articleReaderHeader.find('.article-reader-header-inner');
 		var $articleReaderBodyInner = $articleReaderBody.find('.article-reader-body-inner');
+		var $articleBack = $('.article-back');
+		var $articleBackMobile = $('.article-back-mobile');
 
 		if ($(window).width() > 1000) {
 			
@@ -66,6 +71,7 @@ jQuery(document).ready(function($)
 				tlProjectOpening
 					.to($articleReaderBody, 0, {css:{className:'-=is-scrollable'}})
 					.to($articleReader, 0, {css:{className:'-=is-scrollable'}})
+					.to([$articleBack], 0.3, {scale: 0, ease: Back.easeIn.config(5)})
 					.to([$articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut})
 					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
 					.to([$articleReaderHeader], 0.75, {yPercent: '100', ease: Power4.easeOut})
@@ -80,7 +86,8 @@ jQuery(document).ready(function($)
 					.set([$articleReaderHeader], {yPercent: '100'})
 					.set([$articleReaderBody], {yPercent: '-100'})
 					.set([$articleReaderHeaderInner], {autoAlpha: 0})
-					.set([$articleReaderBodyInner], {autoAlpha: 0});
+					.set([$articleReaderBodyInner], {autoAlpha: 0})
+					.set([$articleBack], {scale: 0});
 
 				$wrapper.addClass('is-faded');
 				tlProjectOpening
@@ -90,6 +97,7 @@ jQuery(document).ready(function($)
 					.to([$articleReaderHeader, $articleReaderBody], 0.75, {yPercent: '0', ease: Power4.easeOut})
 					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
 					.to([$articleReaderBodyInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
+					.to([$articleBack], 0.75, {scale: 1, ease: Elastic.easeOut.config(1, 0.3)})
 					.to($articleReader, 0, {css:{className:'+=is-scrollable'}})
 					.to($articleReaderBody, 0, {css:{className:'+=is-scrollable'}});
 			}
@@ -102,6 +110,7 @@ jQuery(document).ready(function($)
 				tlProjectOpening
 					.to($articleReaderBody, 0, {css:{className:'-=is-scrollable'}})
 					.to($articleReader, 0, {css:{className:'-=is-scrollable'}})
+					.to([$articleBack], 0.3, {scale: 0, ease: Back.easeIn.config(5)})
 					.to([$articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut})
 					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
 					.to([$articleReaderHeader], 0.75, {xPercent: '100', ease: Power4.easeOut})
@@ -116,7 +125,8 @@ jQuery(document).ready(function($)
 				.set([$articleReaderHeader], {xPercent: '-100', yPercent: '0'})
 				.set([$articleReaderBody], {xPercent: '100', yPercent: '0'})
 				.set([$articleReaderHeaderInner], {autoAlpha: 0})
-				.set([$articleReaderBodyInner], {autoAlpha: 0});
+				.set([$articleReaderBodyInner], {autoAlpha: 0})
+				.set([$articleBack], {scale: 0});;
 
 				$wrapper.addClass('is-faded');
 				tlProjectOpening
@@ -126,10 +136,21 @@ jQuery(document).ready(function($)
 					.to([$articleReaderHeader, $articleReaderBody], 0.75, {xPercent: '0', ease: Power4.easeOut})
 					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
 					.to([$articleReaderBodyInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
+					.to([$articleBack], 0.75, {scale: 1, ease: Elastic.easeOut.config(1, 0.3)})
 					.to($articleReader, 0, {css:{className:'+=is-scrollable'}})
 					.to($articleReaderBody, 0, {css:{className:'+=is-scrollable'}});
 			}
 		}
+
+		$articleBack.on('click', function(e) {
+			fireAnim();
+		});
+
+		$articleBackMobile.on('click', function(e) {
+			fireAnim();
+			event.preventDefault();
+		});
+
 	}
 
 	//BOUTONS PROJETS

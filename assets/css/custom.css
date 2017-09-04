@@ -341,9 +341,21 @@ ul.actions li a.button {
       .spotlights .wall .brick.brick-lg {
         height: calc(100vh - 3.5em);
         background: blue; }
+        @media screen and (max-width: 1200px) {
+          .spotlights .wall .brick.brick-lg {
+            height: 76vh; } }
+        @media screen and (max-width: 900px) {
+          .spotlights .wall .brick.brick-lg {
+            height: 33vh; } }
       .spotlights .wall .brick.brick-sm {
         height: calc(50vh - 1.75em);
         background: red; }
+        @media screen and (max-width: 1200px) {
+          .spotlights .wall .brick.brick-sm {
+            height: 38vh; } }
+        @media screen and (max-width: 900px) {
+          .spotlights .wall .brick.brick-sm {
+            height: 33vh; } }
       .spotlights .wall .brick .brick-excerpt {
         position: absolute;
         z-index: 1;
@@ -474,19 +486,28 @@ ul.actions li a.button {
           overflow-y: initial; } }
     .article-reader .article-reader-body .article-reader-body-inner {
       padding: 100px 50px 50px 50px; }
+      @media screen and (max-width: 900px) {
+        .article-reader .article-reader-body .article-reader-body-inner {
+          padding: 50px 50px 50px 50px; } }
   .article-reader .article-back {
     position: absolute;
     left: 900px;
     top: 50%;
     width: 50px;
     transform: translateX(-50%);
-    z-index: 5; }
+    z-index: 5;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15); }
     @media screen and (max-width: 1920px) {
       .article-reader .article-back {
         left: 600px; } }
     @media screen and (max-width: 1200px) {
       .article-reader .article-back {
         left: 450px; } }
+    @media screen and (max-width: 900px) {
+      .article-reader .article-back {
+        display: none; } }
 
 .numbers {
   background-color: #e0e0e0 !important; }

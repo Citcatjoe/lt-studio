@@ -12,20 +12,14 @@
         },
         columns: 2,
         breakAt: {
-          991: {
-            columns: 3,
-            margin: {
-                x: 20,
-                y: 20
-            }
-          },
-          767: {
+          900: {
             columns: 1,
             margin: {
-                x: 20,
-                y: 10
+                x: 0,
+                y: 0
             }
           }
+         
         }
       });
 
