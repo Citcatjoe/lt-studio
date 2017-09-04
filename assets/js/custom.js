@@ -42,7 +42,7 @@ jQuery(document).ready(function($)
 
 
 
-	$(".spotlights a.button").on('click', function(e) {
+	$(".spotlights .brick").on('click', function(e) {
 		
 		dataUrl = $(this).attr('data-url');
 		//alert(dataUrl);
@@ -69,11 +69,12 @@ jQuery(document).ready(function($)
 			{
 				$wrapper.removeClass('is-faded');
 				tlProjectOpening
+					
+					//.to([$articleBack], 0.3, {scale: 0, ease: Back.easeIn.config(5)})
+					.to([$articleReaderHeaderInner, $articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut})
+					//.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
 					.to($articleReaderBody, 0, {css:{className:'-=is-scrollable'}})
 					.to($articleReader, 0, {css:{className:'-=is-scrollable'}})
-					.to([$articleBack], 0.3, {scale: 0, ease: Back.easeIn.config(5)})
-					.to([$articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut})
-					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
 					.to([$articleReaderHeader], 0.75, {yPercent: '100', ease: Power4.easeOut})
 					.to([$articleReaderBody], 0.75, {yPercent: '-100', ease: Power4.easeOut}, '-=0.75')
 					.to([$wrapper], 0.75, {autoAlpha: 1, scale: 1, ease: Power4.easeOut})
@@ -87,7 +88,7 @@ jQuery(document).ready(function($)
 					.set([$articleReaderBody], {yPercent: '-100'})
 					.set([$articleReaderHeaderInner], {autoAlpha: 0})
 					.set([$articleReaderBodyInner], {autoAlpha: 0})
-					.set([$articleBack], {scale: 0});
+					//.set([$articleBack], {scale: 0});
 
 				$wrapper.addClass('is-faded');
 				tlProjectOpening
@@ -97,7 +98,7 @@ jQuery(document).ready(function($)
 					.to([$articleReaderHeader, $articleReaderBody], 0.75, {yPercent: '0', ease: Power4.easeOut})
 					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
 					.to([$articleReaderBodyInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
-					.to([$articleBack], 0.75, {scale: 1, ease: Elastic.easeOut.config(1, 0.3)})
+					//.to([$articleBack], 0.75, {scale: 1, ease: Elastic.easeOut.config(1, 0.3)})
 					.to($articleReader, 0, {css:{className:'+=is-scrollable'}})
 					.to($articleReaderBody, 0, {css:{className:'+=is-scrollable'}});
 			}
@@ -108,11 +109,12 @@ jQuery(document).ready(function($)
 			{
 				$wrapper.removeClass('is-faded');
 				tlProjectOpening
+					
+					//.to([$articleBack], 0.3, {scale: 0, ease: Back.easeIn.config(5)})
+					.to([$articleReaderHeaderInner, $articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut})
+					//.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
 					.to($articleReaderBody, 0, {css:{className:'-=is-scrollable'}})
 					.to($articleReader, 0, {css:{className:'-=is-scrollable'}})
-					.to([$articleBack], 0.3, {scale: 0, ease: Back.easeIn.config(5)})
-					.to([$articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut})
-					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
 					.to([$articleReaderHeader], 0.75, {xPercent: '100', ease: Power4.easeOut})
 					.to([$articleReaderBody], 0.75, {xPercent: '-100', ease: Power4.easeOut}, '-=0.75')
 					.to([$wrapper], 0.75, {autoAlpha: 1, scale: 1, ease: Power4.easeOut})
@@ -126,7 +128,7 @@ jQuery(document).ready(function($)
 				.set([$articleReaderBody], {xPercent: '100', yPercent: '0'})
 				.set([$articleReaderHeaderInner], {autoAlpha: 0})
 				.set([$articleReaderBodyInner], {autoAlpha: 0})
-				.set([$articleBack], {scale: 0});;
+				//.set([$articleBack], {scale: 0});;
 
 				$wrapper.addClass('is-faded');
 				tlProjectOpening
@@ -136,7 +138,7 @@ jQuery(document).ready(function($)
 					.to([$articleReaderHeader, $articleReaderBody], 0.75, {xPercent: '0', ease: Power4.easeOut})
 					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
 					.to([$articleReaderBodyInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
-					.to([$articleBack], 0.75, {scale: 1, ease: Elastic.easeOut.config(1, 0.3)})
+					//.to([$articleBack], 0.75, {scale: 1, ease: Elastic.easeOut.config(1, 0.3)})
 					.to($articleReader, 0, {css:{className:'+=is-scrollable'}})
 					.to($articleReaderBody, 0, {css:{className:'+=is-scrollable'}});
 			}
@@ -146,11 +148,11 @@ jQuery(document).ready(function($)
 			fireAnim();
 		});
 
-		$articleBackMobile.on('click', function(e) {
-			fireAnim();
-			event.preventDefault();
-		});
-
+		// $articleBackMobile.on('click', function(e) {
+		// 	fireAnim();
+		// 	event.preventDefault();
+		// });
+		event.preventDefault();
 	}
 
 	//BOUTONS PROJETS

@@ -1208,6 +1208,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/test.png": {
+		"ft": 32768,
+		"iS": 4441,
+		"oA": 0,
+		"oAP": "\/images\/test.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/thumb-boldor.jpg": {
 		"ft": 16384,
 		"iS": 113521,

@@ -66,7 +66,7 @@
 				<img class="hamburger" src="images/menu-01.svg" alt="">
 				<img class="cross" src="images/cross-01.svg" alt="">
 				<div class="inner">
-					<img class="logo" src="images/logo-bar-01-01.svg" alt="">
+					<img class="logo" src="images/logo-bar-test2.svg" alt="">
 					<nav>
 						<ul>
 							<li><a href="#intro">Qui sommes-nous?</a></li>
@@ -217,47 +217,41 @@
 					<section id="two" class="spotlights wrapper style2">
 						<!-- <h1>Projects</h1> -->
 						<div class="wall">
-							<article class="brick brick-lg" style="background: url('images/thumb-boldor.jpg');">
+							<article class="brick brick-lg" data-url="boldor.html">
+								<div class="brick-bg" style="background: url('images/thumb-boldor.jpg');"></div>
 								<div class="brick-excerpt">
 									<h1 class="brick-title">Brick title</h1>
 									<span class="brick-lead">
 										We need partner of every size, i every country, with genuine love for every crop that we protect
 									</span>
-									<ul class="brick-button actions">
-										<li><a href="#" class="button" data-url="boldor.html">Détails</a></li>
-									</ul>
 								</div>
 								<!-- <div class="brick-radialgradient"></div> -->
 								<div class="brick-shadow"></div>
-								<div class="brick-overlay"></div>
+								<!-- <div class="brick-overlay"></div> -->
 							</article>
-							<article class="brick brick-sm" style="background: url('images/thumb-montre8h.jpg');">
+							<article class="brick brick-sm" data-url="medgeno.html">
+								<div class="brick-bg" style="background: url('images/thumb-montre8h.jpg');"></div>
 								<div class="brick-excerpt">
 									<h1 class="brick-title">Brick title</h1>
 									<span class="brick-lead">
 										We need partner of every size, i every country, with genuine love for every crop that we protect
 									</span>
-									<ul class="brick-button actions">
-										<li><a href="#" class="button">Détails</a></li>
-									</ul>
 								</div>
 								<!-- <div class="brick-radialgradient"></div> -->
 								<div class="brick-shadow"></div>
-								<div class="brick-overlay"></div>
+								<!-- <div class="brick-overlay"></div> -->
 							</article>
-							<article class="brick brick-sm" style="background: url('images/thumb-medgeno.jpg');">
+							<article class="brick brick-sm" data-url="medgeno.html">
+								<div class="brick-bg" style="background: url('images/thumb-medgeno.jpg');"></div>
 								<div class="brick-excerpt">
 									<h1 class="brick-title">Brick title</h1>
 									<span class="brick-lead">
 										We need partner of every size, i every country, with genuine love for every crop that we protect
 									</span>
-									<ul class="brick-button actions">
-										<li><a href="#" class="button" data-url="medgeno.html">Détails</a></li>
-									</ul>
 								</div>
 								<!-- <div class="brick-radialgradient"></div> -->
 								<div class="brick-shadow"></div>
-								<div class="brick-overlay"></div>
+								<!-- <div class="brick-overlay"></div> -->
 							</article>
 						</div>
 					

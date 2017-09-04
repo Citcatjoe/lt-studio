@@ -321,26 +321,22 @@ ul.actions li a.button {
           color: #000 !important; }
 
 .spotlights {
-  background: #ececec !important; }
+  background: black !important; }
   .spotlights .wall {
     width: 100%; }
     .spotlights .wall .brick {
       position: relative;
-      background-position: center center !important;
-      background-size: cover !important;
-      overflow: hidden; }
-      .spotlights .wall .brick:hover .brick-excerpt .brick-button {
-        opacity: 1;
-        transition: all 0.2s ease-in-out; }
-      .spotlights .wall .brick:hover .brick-excerpt {
-        bottom: 0;
-        transition: all 0.2s ease-in-out; }
-      .spotlights .wall .brick:hover .brick-overlay {
-        transform: translateY(0%);
-        transition: all 0.4s ease-in-out; }
+      overflow: hidden;
+      cursor: pointer; }
+      .spotlights .wall .brick:hover .brick-excerpt .brick-title {
+        transform: translateY(-10px);
+        transition: all 0.3s; }
+      .spotlights .wall .brick:hover .brick-bg {
+        transform: scale(1.05);
+        transition: all 0.3s; }
       .spotlights .wall .brick.brick-lg {
         height: calc(100vh - 3.5em);
-        background: blue; }
+        background: white; }
         @media screen and (max-width: 1200px) {
           .spotlights .wall .brick.brick-lg {
             height: 76vh; } }
@@ -356,17 +352,32 @@ ul.actions li a.button {
         @media screen and (max-width: 900px) {
           .spotlights .wall .brick.brick-sm {
             height: 33vh; } }
+      .spotlights .wall .brick .brick-bg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-position: center center !important;
+        background-size: cover !important;
+        overflow: hidden;
+        z-index: 1;
+        transform-origin: 50% 50%;
+        transition: all 0.3s; }
       .spotlights .wall .brick .brick-excerpt {
         position: absolute;
-        z-index: 1;
+        z-index: 4;
         padding: 30px;
         width: 100%;
-        bottom: -50px;
+        bottom: 0;
         transition: all 0.2s ease-in-out; }
         .spotlights .wall .brick .brick-excerpt .brick-title {
-          color: white;
+          color: #FCCC04;
           margin-bottom: 0em;
-          font-size: 2em; }
+          font-size: 2em;
+          transition: all 0.3s; }
         .spotlights .wall .brick .brick-excerpt .brick-lead {
           color: white;
           -webkit-font-smoothing: antialiased;
@@ -375,9 +386,13 @@ ul.actions li a.button {
           margin-bottom: 1em;
           font-size: 1.2em;
           line-height: 1.5em; }
+          @media screen and (max-width: 900px) {
+            .spotlights .wall .brick .brick-excerpt .brick-lead {
+              display: none; } }
         .spotlights .wall .brick .brick-excerpt .brick-button {
           opacity: 0;
-          transition: all 0.2s ease-in-out; }
+          transition: all 0.2s ease-in-out;
+          display: none; }
       .spotlights .wall .brick .brick-radialgradient {
         position: absolute;
         width: 100%;
@@ -394,7 +409,8 @@ ul.actions li a.button {
         height: 50%;
         bottom: 0;
         background: linear-gradient(to top, #000 0, rgba(0, 0, 0, 0.5) 30%, transparent 100%);
-        opacity: 1; }
+        opacity: 1;
+        z-index: 2; }
       .spotlights .wall .brick .brick-overlay {
         position: absolute;
         top: 0;
@@ -405,7 +421,8 @@ ul.actions li a.button {
         height: 100%;
         background: rgba(0, 0, 0, 0.5);
         transform: translateY(100%);
-        transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1); }
+        transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+        z-index: 3; }
 
 .article-reader {
   position: fixed;
@@ -459,7 +476,7 @@ ul.actions li a.button {
           margin-bottom: 1em;
           font-size: 1.5em;
           line-height: 1.5em; }
-        .article-reader .article-reader-header .article-reader-header-inner .article-reader-header-excerpt .article-reader-header-excerpt-button li a.button {
+        .article-reader .article-reader-header .article-reader-header-inner .article-reader-header-excerpt .article-back li a.button {
           background: transparent;
           color: white !important;
           border: 2px solid white !important; }
@@ -485,11 +502,38 @@ ul.actions li a.button {
         .article-reader .article-reader-body.is-scrollable {
           overflow-y: initial; } }
     .article-reader .article-reader-body .article-reader-body-inner {
-      padding: 100px 50px 50px 50px; }
+      padding: 150px 300px 30px 160px; }
+      @media screen and (max-width: 1600px) {
+        .article-reader .article-reader-body .article-reader-body-inner {
+          padding: 150px 80px 30px 80px; } }
       @media screen and (max-width: 900px) {
         .article-reader .article-reader-body .article-reader-body-inner {
-          padding: 50px 50px 50px 50px; } }
-  .article-reader .article-back {
+          padding: 40px 30px 0 30px; } }
+      .article-reader .article-reader-body .article-reader-body-inner h2 {
+        margin-bottom: 30px;
+        font-size: 3em;
+        line-height: 1.4em;
+        text-transform: uppercase; }
+      .article-reader .article-reader-body .article-reader-body-inner h3 {
+        font-size: 1.5em;
+        color: #5d5d5d;
+        margin-bottom: 1.5em; }
+      .article-reader .article-reader-body .article-reader-body-inner h4 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+        text-shadow: none;
+        color: #5d5d5d;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; }
+      .article-reader .article-reader-body .article-reader-body-inner img {
+        max-width: 620px;
+        margin-bottom: 10px; }
+        @media screen and (max-width: 900px) {
+          .article-reader .article-reader-body .article-reader-body-inner img {
+            max-width: 100%; } }
+      .article-reader .article-reader-body .article-reader-body-inner a.button {
+        margin-top: -10px; }
+  .article-reader .article-seeproject {
     position: absolute;
     left: 900px;
     top: 50%;
@@ -498,15 +542,16 @@ ul.actions li a.button {
     z-index: 5;
     cursor: pointer;
     border-radius: 50%;
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15); }
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    display: none; }
     @media screen and (max-width: 1920px) {
-      .article-reader .article-back {
+      .article-reader .article-seeproject {
         left: 600px; } }
     @media screen and (max-width: 1200px) {
-      .article-reader .article-back {
+      .article-reader .article-seeproject {
         left: 450px; } }
     @media screen and (max-width: 900px) {
-      .article-reader .article-back {
+      .article-reader .article-seeproject {
         display: none; } }
 
 .numbers {
