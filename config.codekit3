@@ -225,6 +225,29 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/excellence.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/excellence-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/excellence.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/excellence.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/font-awesome.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -868,6 +891,36 @@
 		"oAP": "\/generic.html",
 		"oF": 0
 		},
+	"\/images\/awards-bosw.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/awards-bosw.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/awards-grand.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/awards-grand.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/awards-ona16.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/awards-ona16.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/back.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -908,6 +961,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/illustration-longread-boldor.jpg": {
+		"ft": 16384,
+		"iS": 319419,
+		"oA": 0,
+		"oAP": "\/images\/illustration-longread-boldor.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/laurier-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -938,6 +1001,36 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/logo-bar-test.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-bar-test.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-bar-test2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-bar-test2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-bolero-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-bolero-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/logo-bolero-hero.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -953,6 +1046,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/logo-bosw-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-gm-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-gm-black.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -978,11 +1081,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/logo-illustre-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-illustre-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/logo-illustre-hero.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/logo-illustre-hero.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-lt-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-lt-black.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1008,11 +1131,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/logo-pme-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-pme-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/logo-pme-hero.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/logo-pme-hero.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-tv8-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-tv8-black.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

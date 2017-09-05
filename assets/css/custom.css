@@ -210,10 +210,10 @@ ul.actions li a.button {
 #intro {
   background-size: cover;
   background-position: center bottom;
-  position: relative; }
+  position: relative;
+  min-height: 100vh; }
   @media screen and (max-width: 736px) {
     #intro {
-      min-height: 100vh;
       margin-top: 0; } }
   #intro svg {
     width: 100%;
@@ -263,9 +263,16 @@ ul.actions li a.button {
       margin-left: -150px;
       margin-right: -150px;
       margin-bottom: 70px; }
+      @media screen and (max-width: 1200px) {
+        #intro .inner div.intro-logo-list {
+          margin-left: 0;
+          margin-right: 0; } }
       #intro .inner div.intro-logo-list img {
         width: calc(100% / 6);
         float: left; }
+        @media screen and (max-width: 1200px) {
+          #intro .inner div.intro-logo-list img {
+            width: calc(100% / 3); } }
     #intro .inner .scroll-downs {
       cursor: pointer;
       transform-origin: 50% 50%;
@@ -328,9 +335,6 @@ ul.actions li a.button {
       position: relative;
       overflow: hidden;
       cursor: pointer; }
-      .spotlights .wall .brick:hover .brick-excerpt .brick-title {
-        transform: translateY(-10px);
-        transition: all 0.3s; }
       .spotlights .wall .brick:hover .brick-bg {
         transform: scale(1.05);
         transition: all 0.3s; }
@@ -373,10 +377,20 @@ ul.actions li a.button {
         width: 100%;
         bottom: 0;
         transition: all 0.2s ease-in-out; }
+        .spotlights .wall .brick .brick-excerpt .brick-tag {
+          background: #FCCC04;
+          color: black;
+          padding: 0 7px;
+          display: inline-block;
+          margin-bottom: 10px;
+          font-family: 'Playfair Display';
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale; }
         .spotlights .wall .brick .brick-excerpt .brick-title {
           color: #FCCC04;
-          margin-bottom: 0em;
+          margin-bottom: 0.3em;
           font-size: 2em;
+          line-height: 1.4em;
           transition: all 0.3s; }
         .spotlights .wall .brick .brick-excerpt .brick-lead {
           color: white;
@@ -517,7 +531,8 @@ ul.actions li a.button {
       .article-reader .article-reader-body .article-reader-body-inner h3 {
         font-size: 1.5em;
         color: #5d5d5d;
-        margin-bottom: 1.5em; }
+        margin-bottom: 1.5em;
+        font-weight: 100; }
       .article-reader .article-reader-body .article-reader-body-inner h4 {
         font-size: 2em;
         margin-bottom: 0.5em;
@@ -527,7 +542,7 @@ ul.actions li a.button {
         -moz-osx-font-smoothing: grayscale; }
       .article-reader .article-reader-body .article-reader-body-inner img {
         max-width: 620px;
-        margin-bottom: 10px; }
+        margin-bottom: 25px; }
         @media screen and (max-width: 900px) {
           .article-reader .article-reader-body .article-reader-body-inner img {
             max-width: 100%; } }

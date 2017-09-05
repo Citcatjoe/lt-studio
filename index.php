@@ -35,10 +35,16 @@
 		<link rel="shortcut icon" href="favicon.ico" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/custom.css" />
+		<link rel="stylesheet" href="assets/css/excellence.css" />
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,600" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900,900i" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+
+		<!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js“:”//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js”;c=e.getElementsByTagName(“script”)[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 		
 	</head>
 	<body>
@@ -81,65 +87,6 @@
 			</section>
 
 			<section class="article-reader">
-
-				<!-- <div class="article-reader-header" >
-					<div class="article-reader-header-inner" style="background: url('images/thumb-boldor2.jpg');">
-						<div class="article-reader-header-shadow"></div>
-						<div class="article-reader-header-excerpt">
-							<span class="article-reader-header-excerpt-lead">
-								We need partner of every size, i every country, with genuine love for every crop that we protect
-							</span>
-							<ul class="article-reader-header-excerpt-button actions">
-								<li><a href="#" class="button">Visiter la page</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-				<div class="article-reader-body">
-					<div class="article-reader-body-inner">
-						<h2 class="article-reader-body-title">
-							Mon joli titre ici
-						</h2>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam debitis ratione corporis at nisi porro, modi veniam quos ipsam repellat quis quibusdam labore nulla eligendi. Iste eos magni quae ratione.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore necessitatibus hic dolore repellat dicta, temporibus iste laudantium esse quaerat, optio ipsum debitis unde laboriosam nisi obcaecati eligendi enim doloribus, odio!
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam debitis ratione corporis at nisi porro, modi veniam quos ipsam repellat quis quibusdam labore nulla eligendi. Iste eos magni quae ratione.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore necessitatibus hic dolore repellat dicta, temporibus iste laudantium esse quaerat, optio ipsum debitis unde laboriosam nisi obcaecati eligendi enim doloribus, odio!
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam debitis ratione corporis at nisi porro, modi veniam quos ipsam repellat quis quibusdam labore nulla eligendi. Iste eos magni quae ratione.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore necessitatibus hic dolore repellat dicta, temporibus iste laudantium esse quaerat, optio ipsum debitis unde laboriosam nisi obcaecati eligendi enim doloribus, odio!
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nostrum. Eum minus, vel perferendis quidem corporis quibusdam ut, debitis rerum rem assumenda, officiis ea, eius nobis nam culpa distinctio cum.
-						</p>
-					</div>
-
-				</div> -->
 			</section>
 
 		<!-- Wrapper -->
@@ -220,9 +167,12 @@
 							<article class="brick brick-lg" data-url="boldor.html">
 								<div class="brick-bg" style="background: url('images/thumb-boldor.jpg');"></div>
 								<div class="brick-excerpt">
-									<h1 class="brick-title">Brick title</h1>
+									<span class="brick-tag">Banque et finance</span>
+									<h1 class="brick-title">
+										Le Bol d’Or Mirabaud, une épopée technologique
+									</h1>
 									<span class="brick-lead">
-										We need partner of every size, i every country, with genuine love for every crop that we protect
+										Un long read interactif qui comprend des photos, de la vidéo 360° et des infographies. Jamais le prestige du Bol d’Or n’a aussi bien été retranscrit.
 									</span>
 								</div>
 								<!-- <div class="brick-radialgradient"></div> -->
@@ -254,7 +204,6 @@
 								<!-- <div class="brick-overlay"></div> -->
 							</article>
 						</div>
-					
 					</section>
 
 					<!-- <section class="parallax">
@@ -262,9 +211,11 @@
 						<div class="parallax-bg parallax-bg-two"></div>
 					</section> -->
 
+					
+
 					<section id="three" class="numbers wrapper style3 fade-up">
 						<div class="inner">
-							<div class="split style1">
+							<div class="style1">
 								<section>
 									<h2>L'attention du public se mérite</h2>
 									<p>La ligne éditoriale rigoureuse de nos médias a conduit à la confiance et à la qualité de notre audience. En plus de l’ancrage très fort de nos publications print dans le paysage suisse, notre portée digitale connaît une croissance importante.</p>
@@ -285,40 +236,13 @@
 											<p><b>membres sur l’ensemble de nos réseaux sociaux.</b> Un nombre qui a doublé depuis un an.</p>
 										</section>
 										<section>
-											<h4><span>1</span>M</h4>
+											<h4><span>1.2</span>M</h4>
 											<img src="images/numbers-icon7-01.svg" alt="">
 											<p><b>Vidéos vues chaque mois sur des thématiques et des cibles très diverses.</b> Le format qui engage le plus les Romands.</p>
 										</section>
 									</div>
 								</section>
-								<section>
-									<img src="images/prize1.jpg" alt="prix GRAND">
-									<img src="images/prize2.jpg" alt="prix GRAND">
-									<img src="images/prize3.jpg" alt="prix GRAND">
-									<!-- <ul class="contact">
-										<li>
-											<h3>Adresse</h3>
-											<span>Ringier Axel Springer Suisse SA<br />
-											Pont Bessières 3<br>
-											Case postale 6714<br>
-											CH - 1002 Lausanne</span>
-										</li>
-										
-										<li>
-											<h3>Téléphone</h3>
-											<span>(+41) 58 269 29 00</span>
-										</li>
-
-										<li>
-											<h3>Sites web</h3>
-											<a target="_blank" href="http://ringieraxelspringer.ch/fr">ringieraxelspringer.ch/fr</a><br>
-											<a target="_blank" href="https://www.letemps.ch/">letemps.ch</a><br>
-											<a target="_blank" href="http://www.illustre.ch/">illustre.ch</a><br>
-											<a target="_blank" href="https://www.boleromagazin.ch/fr/">boleromagazin.ch</a><br>
-											<a target="_blank" href="http://www.tv8.ch/">tv8.ch</a>
-										</li>
-									</ul> -->
-								</section>
+								
 							</div>
 						</div>
 						<!-- <div class="inner">
@@ -349,7 +273,49 @@
 						</div> -->
 					</section>
 
-					<section id="five" class="awards wrapper style1 fade-up">
+					<section id="five" class="wrapper excellence fade-up">
+						<div class="inner">
+							<h2>
+								L'excellence partagée
+							</h2>
+							<div class="inner-left">
+								<p>
+									Chacun de nos six médias représente l’excellence dans son domaine. En matière d’information, de photographie, de business, de gastronomie, de mode ou de cinéma/télévision, nous pouvons assurer une qualité de contenu sans pareille en Suisse romande. 
+								</p>
+								<p>
+									Cela vous permettra de véhiculer au mieux l’esprit qualitatif de votre marque, autant auprès des décideurs que de la classe populaire.
+								</p>
+							</div>
+							<div class="inner-right">
+								<img src="images/logo-lt-hero.svg" alt="logo Le Temps">
+								<img src="images/logo-illustre-hero.svg" alt="logo L'Illustré">
+								<img src="images/logo-pme-hero.svg" alt="logo PME magazine">
+								<img src="images/logo-gm-hero.svg" alt="logo Gault & Millau">
+								<img src="images/logo-bolero-hero.svg" alt="logo Bolero">
+								<img src="images/logo-tv8-hero.svg" alt="logo TV8">
+							</div>
+						</div>
+						<div class="inner excellence-awards">	
+							<div class="excellence-awards-container">
+								<img src="images/awards-bosw.svg" alt="">
+								<h5>BRONZE catégorie ergonomie</h5>
+								<h3>Best of swiss web 2016 (Suisse)</h3>
+							</div>
+							<div class="excellence-awards-container">
+								<img src="images/awards-ona16.svg" alt="">
+								<h5>General Excellence in Online Journalism Medium</h5>
+								<h3>Online News Association (Etats-Unis)</h3>
+							</div>
+							<div class="excellence-awards-container">
+								<img src="images/awards-grand.svg" alt="">
+								<h5>GOLD catégorie mobile</h5>
+								<h3>Grand prix romand de la création (Suisse)</h3>
+							</div>
+								
+						</div>
+					</section>
+
+					<!-- <section id="five" class="awards wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Distinctions</h2>
 							<div class="features">
@@ -371,7 +337,7 @@
 							</div>	
 						</div>
 					</section>
-
+ -->
 				<!-- Three -->
 					<section id="four" class="form wrapper style1 fade-up">
 						<div class="inner">
@@ -479,7 +445,7 @@
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/custom.js"></script>
 			<script src="assets/js/spotlights.js"></script>
-			<script src="assets/js/parallax.js"></script>
+			<!--<script src="assets/js/parallax.js"></script>-->
 			<script src="assets/js/contact.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>

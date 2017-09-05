@@ -1,0 +1,132 @@
+$color1:			#FCCC04; 
+
+section.excellence
+{
+	//background: #484F53;
+	background: $color1;
+
+	.inner
+	{
+		overflow: auto;
+
+		.inner-left
+		{
+			width: 50%;
+			float: left;
+			padding-right: 15px;
+
+			@media screen and (max-width: 900px) {
+			 	width: 100%;
+			 	padding-right: 0;
+			}
+		}
+
+		.inner-right
+		{
+			width: 50%;
+			float: left;
+			padding-left: 15px;
+			margin-top: -20px;
+
+			@media screen and (max-width: 900px) {
+			 	width: 100%;
+			 	padding-left: 0;
+			 	padding-top: 1em;
+			 	padding-bottom: 1em;
+			}
+
+			img 
+			{
+				width: 33.33333%;
+				max-width: 285px;
+				float: left;
+
+				@media screen and (max-width: 1200px) {
+				 	width: 50%;
+
+				}
+
+				@media screen and (max-width: 900px) {
+				 	width: 33.33333%;
+				}
+
+				@media screen and (max-width: 500px) {
+				 	width: 50%;
+				}
+			}
+		}
+	}
+
+	h2 
+	{
+		color: black;
+	}
+
+	p 
+	{
+		color: rgba(0, 0, 0, 0.5);
+	}
+
+	.inner.excellence-awards
+	{
+		padding-top: 2em;
+		padding-bottom: 4em;
+
+		@media screen and (max-width: 900px) {
+		 	padding-bottom: 2em;
+		}
+
+		.excellence-awards-container
+		{
+			width: 32%;
+			margin-right: 2%;
+			float: left;
+
+			@media screen and (max-width: 900px) {
+			 	width: 100%;
+			 	margin-right: 0;
+			 	margin-bottom: 40px;
+			}
+
+			&:last-child
+			{
+				margin-right: 0;
+			}
+
+			img 
+			{
+				max-width: 120px;
+				float: left;
+				margin-right: 20px;
+				margin-bottom: 30px;
+
+				@media screen and (max-width: 1200px) {
+				 	margin-bottom: 100px;
+
+				}
+
+				@media screen and (max-width: 900px) {
+				 	margin-bottom: 30px;
+				 	max-width: 90px;
+				}
+			}
+
+			h5 
+			{
+				font-size: 1.5em;
+				margin: 0 0 0.5em 0;
+
+				@media screen and (max-width: 900px) {
+				 	font-size: 1.3em;
+				}
+			}
+
+			h3 
+			{
+				opacity: 0.5;
+			}
+		}
+	}
+
+
+}

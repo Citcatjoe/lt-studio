@@ -355,11 +355,12 @@ ul.actions
 	background-size: cover;
 	background-position: center bottom;
 	position: relative;
+	min-height: 100vh;
 
 	@media screen and (max-width: 736px) {
 	 	// min-height: calc(100vh - 3.5em);
 	 	// margin-top: 3.5em;
-	 	min-height: 100vh;
+	 	
 	 	margin-top: 0;
 
 	}
@@ -445,11 +446,20 @@ ul.actions
 		    margin-right: -150px;
 		    margin-bottom: 70px;
 
+		    @media screen and (max-width: 1200px) {
+		 		margin-left: 0;
+		   		margin-right: 0;
+			}
+
 			img 
 			{
 				//width: 33.33333%;
 				width: calc(100% / 6);
 				float: left;
+
+				@media screen and (max-width: 1200px) {
+			 		width: calc(100% / 3);
+				}
 			}
 		}
 
@@ -552,7 +562,7 @@ ul.actions
 				//.brick-excerpt .brick-button { opacity: 1; transition: all 0.2s ease-in-out; }
 				//.brick-excerpt { bottom: 0; transition: all 0.2s ease-in-out; };
 				//.brick-overlay { transform: translateY(0%); transition: all 0.4s ease-in-out; }
-				.brick-excerpt .brick-title { transform: translateY(-10px); transition: all 0.3s; }
+				//.brick-excerpt .brick-title { transform: translateY(-10px); transition: all 0.3s; }
 				.brick-bg { transform: scale(1.05); transition: all 0.3s; }
 
 				//background-size: 130% !important;
@@ -615,11 +625,24 @@ ul.actions
 				bottom: 0;
 				transition: all 0.2s ease-in-out;
 
+				.brick-tag 
+				{
+					background: $color1;
+					color: black;
+					padding: 0 7px;
+					display: inline-block;
+					margin-bottom: 10px;
+					font-family: 'Playfair Display';
+					-webkit-font-smoothing: antialiased; 
+   					-moz-osx-font-smoothing: grayscale;
+				}
+
 				.brick-title
 				{
 					color: $color1;
-					margin-bottom: 0em;
+					margin-bottom: 0.3em;
 					font-size: 2em;
+					line-height: 1.4em;
 					transition: all 0.3s;
 				}
 
@@ -995,6 +1018,7 @@ ul.actions
 				font-size: 1.5em;
 				color: #5d5d5d;
 				margin-bottom: 1.5em ;
+				font-weight: 100;
 				
 			}
 
@@ -1011,7 +1035,7 @@ ul.actions
 			img
 			{
 				max-width: 620px;
-				margin-bottom: 10px;
+				margin-bottom: 25px;
 				
 				@media screen and (max-width: 900px) {
 			 		max-width: 100%;
