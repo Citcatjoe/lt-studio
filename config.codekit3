@@ -1379,7 +1379,7 @@
 		"oAP": "\/images\/thumb-boldor2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/thumb-medgeno.jpg": {
@@ -1400,6 +1400,26 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/thumb-septmus-in.jpg": {
+		"ft": 16384,
+		"iS": 170027,
+		"oA": 0,
+		"oAP": "\/images\/thumb-septmus-in.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/thumb-septmus-out.jpg": {
+		"ft": 16384,
+		"iS": 306311,
+		"oA": 0,
+		"oAP": "\/images\/thumb-septmus-out.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/welcome.jpg": {
@@ -1530,6 +1550,12 @@
 		"oAP": "\/load\/medgeno.html",
 		"oF": 0
 		},
+	"\/load\/septmus.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/load\/septmus.html",
+		"oF": 0
+		},
 	"\/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -1618,6 +1644,109 @@
 		"oAP": "\/prod\/article-sponso.psd",
 		"oF": 0
 		},
+	"\/prod\/blackswan\/clearart.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/prod\/blackswan\/clearart.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/prod\/blackswan\/disc.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/prod\/blackswan\/disc.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/prod\/blackswan\/fanart.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/prod\/blackswan\/fanart.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/prod\/blackswan\/fanart1.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/prod\/blackswan\/fanart1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/prod\/blackswan\/fanart2.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/prod\/blackswan\/fanart2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/prod\/blackswan\/fanart3.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/prod\/blackswan\/fanart3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/prod\/blackswan\/fanart4.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/prod\/blackswan\/fanart4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/prod\/blackswan\/fanart5.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/prod\/blackswan\/fanart5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/prod\/blackswan\/logo.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/prod\/blackswan\/logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/prod\/blackswan\/poster.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/prod\/blackswan\/poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/prod\/couleurs.ai": {
 		"ft": 8192,
 		"oA": 2,
@@ -1684,6 +1813,12 @@
 		"oAP": "\/prod\/Simple-Browser.psd",
 		"oF": 0
 		},
+	"\/prod\/social.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/social.psd",
+		"oF": 0
+		},
 	"\/prod\/Tiré-à-part_Banque_du_futur_29.8.2016.pdf": {
 		"ft": 8192,
 		"oA": 2,
@@ -1699,6 +1834,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/social.jpg": {
+		"ft": 16384,
+		"iS": 136998,
+		"oA": 0,
+		"oAP": "\/social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		}
 	},

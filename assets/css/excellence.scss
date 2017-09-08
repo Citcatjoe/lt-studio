@@ -35,6 +35,11 @@ section.excellence
 			 	padding-bottom: 1em;
 			}
 
+			@media screen and (max-width: 500px) {
+			 	//margin-left: -15px;
+			 	//margin-right: -15px;
+			}
+
 			img 
 			{
 				width: 33.33333%;
@@ -51,7 +56,7 @@ section.excellence
 				}
 
 				@media screen and (max-width: 500px) {
-				 	width: 50%;
+				 	width: 33.33333%;
 				}
 			}
 		}
@@ -106,8 +111,11 @@ section.excellence
 				}
 
 				@media screen and (max-width: 900px) {
-				 	margin-bottom: 30px;
+				 	margin-bottom: 0;
 				 	max-width: 90px;
+				}
+
+				@media screen and (max-width: 480px) {
 				}
 			}
 
@@ -118,12 +126,17 @@ section.excellence
 
 				@media screen and (max-width: 900px) {
 				 	font-size: 1.3em;
+				 	padding-left: 110px;
 				}
 			}
 
 			h3 
 			{
 				opacity: 0.5;
+
+				@media screen and (max-width: 900px) {
+				 	padding-left: 110px;
+				}
 			}
 		}
 	}

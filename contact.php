@@ -72,7 +72,8 @@
 		exit();
 	}
 
-	$to = 'thomas.delechat@ringieraxelspringer.ch';
+	$to = 'thomas.delechat@illustre.ch';
+	//$to = 'cesargreppin@gmail.com';
 	// $sujet = $_POST['subject']." (Native Studio)";
 	$sujet = "Nouveau message de Native Studio";
 	$message_txt = $_POST['message'];

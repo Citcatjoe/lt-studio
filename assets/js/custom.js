@@ -47,12 +47,21 @@ jQuery(document).ready(function($)
 		dataUrl = $(this).attr('data-url');
 		//alert(dataUrl);
 		$articleReader.load('../../load/' + dataUrl + '?' + Date.now(), function(){
-			fireAnim();
+			fireAnimChecker();
 		});
 		event.preventDefault();
 	});
 
+	function fireAnimChecker(){
+		if($body.hasClass('is-animating'))
+		{
 
+		}
+		else
+		{
+			fireAnim();
+		}
+	}
 
 	function fireAnim(){
 
@@ -71,6 +80,7 @@ jQuery(document).ready(function($)
 				tlProjectOpening
 					
 					//.to([$articleBack], 0.3, {scale: 0, ease: Back.easeIn.config(5)})
+					.to($body, 0, {css:{className:'+=is-animating'}})
 					.to([$articleReaderHeaderInner, $articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut})
 					//.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
 					.to($articleReaderBody, 0, {css:{className:'-=is-scrollable'}})
@@ -79,7 +89,8 @@ jQuery(document).ready(function($)
 					.to([$articleReaderBody], 0.75, {yPercent: '-100', ease: Power4.easeOut}, '-=0.75')
 					.to([$wrapper], 0.75, {autoAlpha: 1, scale: 1, ease: Power4.easeOut})
 					.to([$articleReader], 0, {zIndex: 0})
-					.to($body, 0, {css:{className:'-=is-overflow-hidden'}});
+					.to($body, 0, {css:{className:'-=is-overflow-hidden'}})
+					.to($body, 0, {css:{className:'-=is-animating'}});
 			}
 			else
 			{
@@ -92,6 +103,7 @@ jQuery(document).ready(function($)
 
 				$wrapper.addClass('is-faded');
 				tlProjectOpening
+					.to($body, 0, {css:{className:'+=is-animating'}})
 					.to($body, 0, {css:{className:'+=is-overflow-hidden'}})
 					.to([$articleReader], 0, {zIndex: 2})
 					.to([$wrapper], 0.75, {autoAlpha: 0.75, scale: 0.9, ease: Power4.easeOut})
@@ -100,7 +112,8 @@ jQuery(document).ready(function($)
 					.to([$articleReaderBodyInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
 					//.to([$articleBack], 0.75, {scale: 1, ease: Elastic.easeOut.config(1, 0.3)})
 					.to($articleReader, 0, {css:{className:'+=is-scrollable'}})
-					.to($articleReaderBody, 0, {css:{className:'+=is-scrollable'}});
+					.to($articleReaderBody, 0, {css:{className:'+=is-scrollable'}})
+					.to($body, 0, {css:{className:'-=is-animating'}});
 			}
 		}
 		else
@@ -111,6 +124,7 @@ jQuery(document).ready(function($)
 				tlProjectOpening
 					
 					//.to([$articleBack], 0.3, {scale: 0, ease: Back.easeIn.config(5)})
+					.to($body, 0, {css:{className:'+=is-animating'}})
 					.to([$articleReaderHeaderInner, $articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut})
 					//.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
 					.to($articleReaderBody, 0, {css:{className:'-=is-scrollable'}})
@@ -119,7 +133,8 @@ jQuery(document).ready(function($)
 					.to([$articleReaderBody], 0.75, {xPercent: '-100', ease: Power4.easeOut}, '-=0.75')
 					.to([$wrapper], 0.75, {autoAlpha: 1, scale: 1, ease: Power4.easeOut})
 					.to([$articleReader], 0, {zIndex: 0})
-					.to($body, 0, {css:{className:'-=is-overflow-hidden'}});
+					.to($body, 0, {css:{className:'-=is-overflow-hidden'}})
+					.to($body, 0, {css:{className:'-=is-animating'}});
 			}
 			else
 			{
@@ -132,6 +147,7 @@ jQuery(document).ready(function($)
 
 				$wrapper.addClass('is-faded');
 				tlProjectOpening
+					.to($body, 0, {css:{className:'+=is-animating'}})
 					.to($body, 0, {css:{className:'+=is-overflow-hidden'}})
 					.to([$articleReader], 0, {zIndex: 2})
 					.to([$wrapper], 0.75, {autoAlpha: 0.75, scale: 0.9, ease: Power4.easeOut})
@@ -140,7 +156,8 @@ jQuery(document).ready(function($)
 					.to([$articleReaderBodyInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
 					//.to([$articleBack], 0.75, {scale: 1, ease: Elastic.easeOut.config(1, 0.3)})
 					.to($articleReader, 0, {css:{className:'+=is-scrollable'}})
-					.to($articleReaderBody, 0, {css:{className:'+=is-scrollable'}});
+					.to($articleReaderBody, 0, {css:{className:'+=is-scrollable'}})
+					.to($body, 0, {css:{className:'-=is-animating'}});
 			}
 		}
 

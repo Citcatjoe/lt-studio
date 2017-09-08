@@ -33,7 +33,7 @@ section.excellence {
             width: 33.33333%; } }
         @media screen and (max-width: 500px) {
           section.excellence .inner .inner-right img {
-            width: 50%; } }
+            width: 33.33333%; } }
   section.excellence h2 {
     color: black; }
   section.excellence p {
@@ -65,13 +65,17 @@ section.excellence {
             margin-bottom: 100px; } }
         @media screen and (max-width: 900px) {
           section.excellence .inner.excellence-awards .excellence-awards-container img {
-            margin-bottom: 30px;
+            margin-bottom: 0;
             max-width: 90px; } }
       section.excellence .inner.excellence-awards .excellence-awards-container h5 {
         font-size: 1.5em;
         margin: 0 0 0.5em 0; }
         @media screen and (max-width: 900px) {
           section.excellence .inner.excellence-awards .excellence-awards-container h5 {
-            font-size: 1.3em; } }
+            font-size: 1.3em;
+            padding-left: 110px; } }
       section.excellence .inner.excellence-awards .excellence-awards-container h3 {
         opacity: 0.5; }
+        @media screen and (max-width: 900px) {
+          section.excellence .inner.excellence-awards .excellence-awards-container h3 {
+            padding-left: 110px; } }

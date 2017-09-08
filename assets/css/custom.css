@@ -254,7 +254,7 @@ ul.actions li a.button {
     transform: translateX(-50%); }
     @media screen and (max-width: 480px) {
       #intro .inner {
-        bottom: 15%; } }
+        bottom: 5%; } }
     #intro .inner .logo-intro {
       width: 100%;
       margin-bottom: 30px; }
@@ -267,6 +267,9 @@ ul.actions li a.button {
         #intro .inner div.intro-logo-list {
           margin-left: 0;
           margin-right: 0; } }
+      @media screen and (max-width: 480px) {
+        #intro .inner div.intro-logo-list {
+          margin-bottom: 40px; } }
       #intro .inner div.intro-logo-list img {
         width: calc(100% / 6);
         float: left; }
@@ -316,16 +319,99 @@ ul.actions li a.button {
     text-shadow: rgba(0, 0, 0, 0.6) 0 1px 8px, rgba(0, 0, 0, 0.6) 0px 0px 1px; }
 
 .skills {
-  background-color: #e0e0e0 !important; }
+  background-color: #e0e0e0 !important;
+  overflow: auto; }
+  .skills .skills-steps {
+    overflow: auto;
+    padding-top: 0;
+    padding-bottom: 0.8em; }
+    @media screen and (max-width: 1400px) {
+      .skills .skills-steps {
+        padding-bottom: 0.5em; } }
+    @media screen and (max-width: 1200px) {
+      .skills .skills-steps {
+        padding-bottom: 0em; } }
+  .skills .skills-steps-container {
+    width: 31.3333%;
+    float: left;
+    margin-right: 3%; }
+    .skills .skills-steps-container:last-child {
+      margin-right: 0; }
+      @media screen and (max-width: 900px) {
+        .skills .skills-steps-container:last-child {
+          margin-bottom: 20px; } }
+    @media screen and (max-width: 900px) {
+      .skills .skills-steps-container {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px; } }
+    .skills .skills-steps-container h1 {
+      font-size: 138px;
+      line-height: 100px;
+      font-weight: 900;
+      color: #FCCC04;
+      text-shadow: rgba(0, 0, 0, 0.1) 0 1px 8px, rgba(0, 0, 0, 0.1) 0px 0px 1px;
+      display: inline-block;
+      float: left;
+      margin: 0;
+      margin-right: 20px;
+      margin-bottom: 50px; }
+      @media screen and (max-width: 1400px) {
+        .skills .skills-steps-container h1 {
+          font-size: 110px;
+          line-height: 85px; } }
+      @media screen and (max-width: 1200px) {
+        .skills .skills-steps-container h1 {
+          font-size: 90px;
+          line-height: 70px; } }
+      @media screen and (max-width: 900px) {
+        .skills .skills-steps-container h1 {
+          float: none;
+          display: block;
+          text-align: center;
+          line-height: 100px;
+          margin-bottom: 20px;
+          font-size: 138px; }
+          .skills .skills-steps-container h1 span {
+            display: none; } }
+    .skills .skills-steps-container h2 {
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 36px;
+      hyphens: auto;
+      opacity: 1; }
+      @media screen and (max-width: 1400px) {
+        .skills .skills-steps-container h2 {
+          font-size: 22px;
+          line-height: 30px; } }
+      @media screen and (max-width: 1200px) {
+        .skills .skills-steps-container h2 {
+          font-size: 18px;
+          line-height: 25px; } }
+      @media screen and (max-width: 900px) {
+        .skills .skills-steps-container h2 {
+          text-align: center;
+          font-size: 28px;
+          line-height: 36px; } }
   .skills .features {
     border: none;
     background: transparent; }
     .skills .features section {
       border: none; }
+      @media screen and (max-width: 480px) {
+        .skills .features section {
+          padding: 2.5em 0em 0.1em 4em; } }
       .skills .features section .icon.major {
         background: #FCCC04; }
         .skills .features section .icon.major:before {
           color: #000 !important; }
+        @media screen and (max-width: 480px) {
+          .skills .features section .icon.major {
+            position: absolute;
+            left: 0;
+            top: 2em; } }
+  .skills .skills-big4 {
+    padding-top: 0; }
 
 .spotlights {
   background: black !important; }
@@ -344,7 +430,7 @@ ul.actions li a.button {
         @media screen and (max-width: 1200px) {
           .spotlights .wall .brick.brick-lg {
             height: 76vh; } }
-        @media screen and (max-width: 900px) {
+        @media screen and (max-width: 915px) {
           .spotlights .wall .brick.brick-lg {
             height: 33vh; } }
       .spotlights .wall .brick.brick-sm {
@@ -353,7 +439,7 @@ ul.actions li a.button {
         @media screen and (max-width: 1200px) {
           .spotlights .wall .brick.brick-sm {
             height: 38vh; } }
-        @media screen and (max-width: 900px) {
+        @media screen and (max-width: 915px) {
           .spotlights .wall .brick.brick-sm {
             height: 33vh; } }
       .spotlights .wall .brick .brick-bg {
@@ -377,21 +463,27 @@ ul.actions li a.button {
         width: 100%;
         bottom: 0;
         transition: all 0.2s ease-in-out; }
+        @media screen and (max-width: 900px) {
+          .spotlights .wall .brick .brick-excerpt {
+            padding: 15px 30px; } }
         .spotlights .wall .brick .brick-excerpt .brick-tag {
           background: #FCCC04;
           color: black;
           padding: 0 7px;
           display: inline-block;
           margin-bottom: 10px;
-          font-family: 'Playfair Display';
-          -webkit-font-smoothing: antialiased;
-          -moz-osx-font-smoothing: grayscale; }
+          font-family: 'Montserrat';
+          font-weight: 900; }
         .spotlights .wall .brick .brick-excerpt .brick-title {
           color: #FCCC04;
           margin-bottom: 0.3em;
           font-size: 2em;
-          line-height: 1.4em;
-          transition: all 0.3s; }
+          line-height: 1.3em;
+          transition: all 0.3s;
+          font-family: 'Playfair Display'; }
+          @media screen and (max-width: 900px) {
+            .spotlights .wall .brick .brick-excerpt .brick-title {
+              font-size: 1.5em; } }
         .spotlights .wall .brick .brick-excerpt .brick-lead {
           color: white;
           -webkit-font-smoothing: antialiased;
@@ -477,11 +569,17 @@ ul.actions li a.button {
         bottom: 0;
         background: linear-gradient(to top, #000 0, rgba(0, 0, 0, 0.5) 30%, transparent 100%);
         opacity: 1; }
+        @media screen and (max-width: 900px) {
+          .article-reader .article-reader-header .article-reader-header-inner .article-reader-header-shadow {
+            font-size: 1em; } }
       .article-reader .article-reader-header .article-reader-header-inner .article-reader-header-excerpt {
         position: absolute;
         width: 100%;
         bottom: 0;
         padding: 30px; }
+        @media screen and (max-width: 900px) {
+          .article-reader .article-reader-header .article-reader-header-inner .article-reader-header-excerpt {
+            padding-bottom: 0; } }
         .article-reader .article-reader-header .article-reader-header-inner .article-reader-header-excerpt .article-reader-header-excerpt-lead {
           color: white;
           -webkit-font-smoothing: antialiased;
@@ -490,6 +588,10 @@ ul.actions li a.button {
           margin-bottom: 1em;
           font-size: 1.5em;
           line-height: 1.5em; }
+          @media screen and (max-width: 900px) {
+            .article-reader .article-reader-header .article-reader-header-inner .article-reader-header-excerpt .article-reader-header-excerpt-lead {
+              font-size: 1em;
+              text-shadow: rgba(0, 0, 0, 0.6) 0 1px 8px, rgba(0, 0, 0, 0.6) 0px 0px 1px; } }
         .article-reader .article-reader-header .article-reader-header-inner .article-reader-header-excerpt .article-back li a.button {
           background: transparent;
           color: white !important;
@@ -528,11 +630,26 @@ ul.actions li a.button {
         font-size: 3em;
         line-height: 1.4em;
         text-transform: uppercase; }
+        @media screen and (max-width: 1920px) {
+          .article-reader .article-reader-body .article-reader-body-inner h2 {
+            font-size: 2.5em; } }
+        @media screen and (max-width: 1200px) {
+          .article-reader .article-reader-body .article-reader-body-inner h2 {
+            font-size: 2em; } }
+        @media screen and (max-width: 900px) {
+          .article-reader .article-reader-body .article-reader-body-inner h2 {
+            font-size: 1.3em;
+            margin-bottom: 10px; } }
       .article-reader .article-reader-body .article-reader-body-inner h3 {
         font-size: 1.5em;
         color: #5d5d5d;
         margin-bottom: 1.5em;
         font-weight: 100; }
+        @media screen and (max-width: 900px) {
+          .article-reader .article-reader-body .article-reader-body-inner h3 {
+            font-size: 1.2em;
+            color: black;
+            margin-bottom: 1em; } }
       .article-reader .article-reader-body .article-reader-body-inner h4 {
         font-size: 2em;
         margin-bottom: 0.5em;
@@ -540,6 +657,9 @@ ul.actions li a.button {
         color: #5d5d5d;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale; }
+        @media screen and (max-width: 900px) {
+          .article-reader .article-reader-body .article-reader-body-inner h4 {
+            font-size: 1.2em; } }
       .article-reader .article-reader-body .article-reader-body-inner img {
         max-width: 620px;
         margin-bottom: 25px; }

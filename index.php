@@ -2,8 +2,9 @@
 
 <html>
 	<head>
-		<title>Native Studio by Le Temps</title>
 		<meta charset="utf-8" />
+		<title>Native Stories</title>
+		<meta name="description" content="Nos médias au service de votre marque" />
 
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -22,6 +23,25 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
+
+		<!-- FACEBOOK -->
+		<link rel="image_src" href="https://www.nativestories.ch/social.jpg" />
+		<meta property="og:title" content="Native Stories" />
+		<meta property="og:site_name" content="NativeStories.ch" />
+		<meta property="og:image" content="https://www.nativestories.ch/social.jpg" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://www.nativestories.ch" />
+		<meta property="og:description" content="Nos médias au service de votre marque" />
+
+		<!-- TWITTER -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@nativestories" />
+		<meta name="twitter:description" content="Nos médias au service de votre marque" />
+		<meta name="twitter:image" content="https://www.nativestories.ch/social.jpg" />
+		<meta name="twitter:url" content="https://www.nativestories.ch" />
+
+		<!-- CANONICAL URL -->
+		<link rel="canonical" href="https://www.nativestories.ch"/>
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -130,6 +150,28 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 							<p>
 								Toutes les grandes marques ont une histoire à raconter. Les Natives Stories sont le meilleur moyen de vous faire entendre et de renforcer votre image en Suisse romande. En parfaite adéquation avec les attentes de notre audience qualifiée, les Natives Stories sont pensées, produites et diffusées de manière optimale grâce à l’expérience et les moyens de nos médias.
 							</p>
+						</div>
+						<div class="inner skills-steps">
+							<div class="skills-steps-container">
+								<h1>1<span>.</span></h1>
+								<h2>
+									Élaboration du concept en fonction de vos objectifs et de la connaissance de notre audience
+								</h2>
+							</div>
+							<div class="skills-steps-container">
+								<h1>2<span>.</span></h1>
+								<h2>
+									Prise en charge intégrale de la production par nos équipes d’experts
+								</h2>
+							</div>
+							<div class="skills-steps-container">
+								<h1>3<span>.</span></h1>
+								<h2>
+									Diffusion optimisée avec une garantie minimale d’audience sur votre cible
+								</h2>
+							</div>
+						</div>
+						<div class="inner skills-big4">
 							<div class="features">
 								<section>
 									<span class="icon major fa-pencil"></span>
@@ -179,8 +221,8 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 								<div class="brick-shadow"></div>
 								<!-- <div class="brick-overlay"></div> -->
 							</article>
-							<article class="brick brick-sm" data-url="medgeno.html">
-								<div class="brick-bg" style="background: url('images/thumb-montre8h.jpg');"></div>
+							<article class="brick brick-sm" data-url="septmus.html">
+								<div class="brick-bg" style="background: url('images/thumb-septmus-out.jpg');"></div>
 								<div class="brick-excerpt">
 									<h1 class="brick-title">Brick title</h1>
 									<span class="brick-lead">
@@ -245,32 +287,7 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 								
 							</div>
 						</div>
-						<!-- <div class="inner">
-							<h2>L'attention du public se mérite</h2>
-							<p>La ligne éditoriale rigoureuse de nos médias a conduit à la confiance et à la qualité de notre audience. En plus de l’ancrage très fort de nos publications print dans le paysage suisse, notre portée digitale connaît une croissance importante.</p>
-							<div class="features">
-								<section>
-									<h4><span>1.3</span>M</h4>
-									<img src="images/numbers-icon9-01.svg" alt="">
-									<p><b>exemplaires de journaux et de magazines diffusés chaque mois </b> dans toute la Suisse romande.</p>
-								</section>
-								<section>
-									<h4><span>2.4</span>M</h4>
-									<img src="images/numbers-icon4-01.svg" alt="">
-									<p><b>visiteurs uniques chaque mois</b> sur les sites web de nos marques romandes. Un nombre en constante croissance.</p>
-								</section>
-								<section>
-									<h4><span>520</span>K</h4>
-									<img src="images/numbers-icon6-01.svg" alt="">
-									<p><b>membres sur l’ensemble de nos réseaux sociaux.</b> Un nombre qui a doublé depuis un an.</p>
-								</section>
-								<section>
-									<h4><span>1</span>M</h4>
-									<img src="images/numbers-icon7-01.svg" alt="">
-									<p><b>Vidéos vues chaque mois sur des thématiques et des cibles très diverses.</b> Le format qui engage le plus les Romands.</p>
-								</section>
-							</div>
-						</div> -->
+						
 					</section>
 
 					<section id="five" class="wrapper excellence fade-up">
@@ -427,9 +444,9 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 							Partager
 						</h3>
 						<p>
-							<a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-							<a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-							<a href=""><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+							<a target="_blank" href="https://www.facebook.com/sharer.php?u=http://www.nativestories.ch/&amp;display=popup&amp;ref=plugin&amp;src=share_button"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+							<a target="_blank" href="https://twitter.com/intent/tweet?text=Nos médias au service de votre marque http://www.nativestories.ch/%20&amp;via=nativestories"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+							<a target="_blank" href="https://www.linkedin.com/shareArticle?url=http://www.nativestories.ch/&amp;mini=true&amp;title=Native%20Stories%20-%20Native%20Stories&amp;summary=Nos%20médias%20au%20service%20de%20votre%20marque&amp;source=Native%20Stories"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
 						</p>
 					</div>
 				</div>

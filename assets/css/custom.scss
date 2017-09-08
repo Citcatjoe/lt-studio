@@ -351,7 +351,6 @@ ul.actions
 
 #intro
 {
-	//background-image: url(../../images/unslpash9-compressed.jpg);
 	background-size: cover;
 	background-position: center bottom;
 	position: relative;
@@ -417,7 +416,7 @@ ul.actions
 		}
 	}
 
-	.inner 
+	.inner //Intro text
 	{
 		max-width: 850px;
 		position: absolute;
@@ -428,7 +427,7 @@ ul.actions
 		transform: translateX(-50%);
 
 		@media screen and (max-width: 480px) {
-		 	bottom: 15%;
+		 	bottom: 5%;
 
 		}
 
@@ -449,6 +448,11 @@ ul.actions
 		    @media screen and (max-width: 1200px) {
 		 		margin-left: 0;
 		   		margin-right: 0;
+			}
+
+			 @media screen and (max-width: 480px) {
+			 	margin-bottom: 40px;
+
 			}
 
 			img 
@@ -515,15 +519,132 @@ ul.actions
 .skills 
 {
 	background-color: $light2 !important;
+	overflow: auto;
+
+	.skills-steps 
+	{ 
+		overflow: auto; 
+		padding-top: 0; 
+		padding-bottom: 0.8em; 
+
+		@media screen and (max-width: 1400px) {
+	 		padding-bottom: 0.5em; 
+		}
+
+		@media screen and (max-width: 1200px) {
+	 		padding-bottom: 0em; 
+		}
+	}
+
+	.skills-steps-container
+	{
+		width: 31.3333%;
+		float: left;
+		margin-right: 3%;
+
+		&:last-child
+		{
+			margin-right: 0;
+
+			@media screen and (max-width: 900px) {
+		 		margin-bottom: 20px;
+			}
+		}
+
+		@media screen and (max-width: 900px) {
+	 		width: 100%;
+	 		margin-right: 0;
+	 		margin-bottom: 40px;
+		}
+
+		
+			h1 
+			{
+				font-size: 138px;
+				line-height: 100px;
+				font-weight: 900;
+				color: $color1;
+				text-shadow: rgba(0, 0, 0, 0.1) 0 1px 8px, rgba(0, 0, 0, 0.1) 0px 0px 1px;
+				display: inline-block;
+				float: left;
+				margin: 0;
+				margin-right: 20px;
+				margin-bottom: 50px;
+
+				@media screen and (max-width: 1400px) {
+			 		font-size: 110px;
+			 		line-height: 85px;
+				}
+
+				@media screen and (max-width: 1200px) {
+			 		font-size: 90px;
+			 		line-height:70px;
+			 		//font-weight: 700;
+				}
+
+				@media screen and (max-width: 900px) {
+			 		float: none;
+			 		display: block;
+			 		text-align: center;
+			 		line-height:100px;
+			 		margin-bottom: 20px;
+			 		font-size: 138px;
+
+			 		span { display: none; }
+				}
+			}
+
+			h2 
+			{
+				font-size: 28px;
+				font-weight: 400;
+				line-height: 36px;
+				hyphens: auto;
+				opacity: 1;
+				// -webkit-font-smoothing: antialiased; 
+   	// 			-moz-osx-font-smoothing: grayscale;
+   				@media screen and (max-width: 1400px) {
+			 		font-size: 22px;
+			 		line-height: 30px;
+				}
+
+				@media screen and (max-width: 1200px) {
+			 		font-size: 18px;
+			 		line-height: 25px;
+			 		//font-weight: 600;
+
+				}
+
+				@media screen and (max-width: 900px) {
+			 		text-align: center;
+			 		font-size: 28px;
+					//font-weight: 400;
+					line-height: 36px;
+				}
+			}
+		
+	}
 
 	.features 
 	{
 		border: none;
 		background: transparent;
 
+		
+
 		section 
 		{
+
 			border: none;
+
+			@media screen and (max-width: 480px) {
+	 			padding: 2.5em 0em 0.1em 4em;
+			}
+
+			&:last-child
+			{
+
+			}
 
 			.icon.major
 			{
@@ -533,8 +654,19 @@ ul.actions
 				{
 					color: #000!important;
 				}
+
+				@media screen and (max-width: 480px) {
+			 			position: absolute;
+			 			left: 0;
+    					top: 2em;
+				}
 			}
 		}
+	}
+
+	.skills-big4
+	{
+		padding-top: 0;
 	}
 }
 
@@ -578,7 +710,7 @@ ul.actions
 			 		height: 76vh;
 				}
 
-				@media screen and (max-width: 900px) {
+				@media screen and (max-width: 915px) {
 			 		height: 33vh;
 				}
 			}
@@ -593,7 +725,7 @@ ul.actions
 			 		height: 38vh;
 				}
 
-				@media screen and (max-width: 900px) {
+				@media screen and (max-width:915px) {
 			 		height: 33vh;
 				}
 			}
@@ -625,6 +757,10 @@ ul.actions
 				bottom: 0;
 				transition: all 0.2s ease-in-out;
 
+				@media screen and (max-width: 900px) {
+				 	padding: 15px 30px;
+				}
+
 				.brick-tag 
 				{
 					background: $color1;
@@ -632,9 +768,10 @@ ul.actions
 					padding: 0 7px;
 					display: inline-block;
 					margin-bottom: 10px;
-					font-family: 'Playfair Display';
-					-webkit-font-smoothing: antialiased; 
-   					-moz-osx-font-smoothing: grayscale;
+					font-family: 'Montserrat';
+					font-weight: 900;
+					// -webkit-font-smoothing: antialiased; 
+   		// 			-moz-osx-font-smoothing: grayscale;
 				}
 
 				.brick-title
@@ -642,8 +779,13 @@ ul.actions
 					color: $color1;
 					margin-bottom: 0.3em;
 					font-size: 2em;
-					line-height: 1.4em;
+					line-height: 1.3em;
 					transition: all 0.3s;
+					font-family: 'Playfair Display';
+
+					@media screen and (max-width: 900px) {
+					 	font-size: 1.5em;
+					}
 				}
 
 				.brick-lead
@@ -923,7 +1065,7 @@ ul.actions
 			background-size: cover !important;
 			position: relative;
 
-				.article-reader-header-shadow
+			.article-reader-header-shadow
 			{
 				position: absolute;
 				width: 100%;
@@ -931,6 +1073,11 @@ ul.actions
 				bottom: 0;
 				background: linear-gradient(to top, #000 0, rgba(0, 0, 0, 0.5) 30%, transparent 100%);
 				opacity: 1;
+
+				@media screen and (max-width: 900px) {
+				 	font-size: 1em;
+				 	//background: linear-gradient(to top, #000 0, rgba(0, 0, 0, 0.5) 30%, transparent 100%);
+				}
 			}
 
 			.article-reader-header-excerpt
@@ -939,6 +1086,10 @@ ul.actions
 				width: 100%;
 				bottom: 0;
 				padding: 30px;
+
+				@media screen and (max-width: 900px) {
+				 	padding-bottom: 0;
+				}
 
 				.article-reader-header-excerpt-lead
 				{
@@ -949,6 +1100,12 @@ ul.actions
 					margin-bottom: 1em;
 					font-size: 1.5em;
 					line-height: 1.5em;
+
+					@media screen and (max-width: 900px) {
+					 	font-size: 1em;
+					 	//text-shadow: rgba(0, 0, 0, 0.1) 0 1px 8px, rgba(0, 0, 0, 0.1) 0px 0px 1px;
+					 	text-shadow: rgba(0, 0, 0, 0.6) 0 1px 8px, rgba(0, 0, 0, 0.6) 0px 0px 1px;
+					}
 				}
 
 				.article-back li a.button
@@ -1011,6 +1168,19 @@ ul.actions
 				font-size: 3em;
 				line-height: 1.4em;
 				text-transform: uppercase;
+
+				@media screen and (max-width: 1920px) {
+				 	font-size: 2.5em;
+				}
+
+				@media screen and (max-width: 1200px) {
+				 	font-size: 2em;
+				}
+
+				@media screen and (max-width: 900px) {
+				 	font-size: 1.3em;
+				 	margin-bottom: 10px;
+				}
 			}
 
 			h3
@@ -1020,6 +1190,11 @@ ul.actions
 				margin-bottom: 1.5em ;
 				font-weight: 100;
 				
+				@media screen and (max-width: 900px) {
+				 	font-size: 1.2em;
+				 	color: black;
+				 	margin-bottom: 1em ;
+				}
 			}
 
 			h4 
@@ -1029,7 +1204,11 @@ ul.actions
 				text-shadow: none;
 				color: #5d5d5d;
 				-webkit-font-smoothing: antialiased; 
-   					-moz-osx-font-smoothing: grayscale;
+   				-moz-osx-font-smoothing: grayscale;
+
+   				@media screen and (max-width: 900px) {
+				 	font-size: 1.2em;
+				}
 			}
 
 			img
