@@ -107,7 +107,7 @@ strong, b
     font-weight: bold;
 }
 
-.hamburger, .cross 
+.hamburger, .cross, .cross2 
 {
 	position: absolute;
 	z-index: 10001;
@@ -136,6 +136,12 @@ strong, b
 	display: none;
 }
 
+.cross2 
+{
+	visibility: hidden;
+	opacity: 0;
+}
+
 .nav-mobile
 {
 	position: fixed;
@@ -143,7 +149,7 @@ strong, b
 	height: calc(100% - 3.5em);
 	bottom: 0;
 	background: $color1;
-	z-index: 1;
+	z-index: 10;
 	display: none;
 
 	ul 
@@ -519,7 +525,7 @@ ul.actions
 .skills 
 {
 	background-color: $light2 !important;
-	overflow: auto;
+	//overflow: auto;
 
 	.skills-steps 
 	{ 
@@ -1214,6 +1220,7 @@ ul.actions
 			img
 			{
 				max-width: 620px;
+				width: 100%;
 				margin-bottom: 25px;
 				
 				@media screen and (max-width: 900px) {

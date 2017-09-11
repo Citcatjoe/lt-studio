@@ -63,7 +63,7 @@ strong, b {
   color: inherit;
   font-weight: bold; }
 
-.hamburger, .cross {
+.hamburger, .cross, .cross2 {
   position: absolute;
   z-index: 10001;
   right: 4em;
@@ -72,7 +72,7 @@ strong, b {
   width: 30px;
   cursor: pointer; }
   @media screen and (max-width: 480px) {
-    .hamburger, .cross {
+    .hamburger, .cross, .cross2 {
       right: 1em; } }
 
 .hamburger {
@@ -84,13 +84,17 @@ strong, b {
 .cross {
   display: none; }
 
+.cross2 {
+  visibility: hidden;
+  opacity: 0; }
+
 .nav-mobile {
   position: fixed;
   width: 100%;
   height: calc(100% - 3.5em);
   bottom: 0;
   background: #FCCC04;
-  z-index: 1;
+  z-index: 10;
   display: none; }
   .nav-mobile ul {
     width: 100%;
@@ -319,8 +323,7 @@ ul.actions li a.button {
     text-shadow: rgba(0, 0, 0, 0.6) 0 1px 8px, rgba(0, 0, 0, 0.6) 0px 0px 1px; }
 
 .skills {
-  background-color: #e0e0e0 !important;
-  overflow: auto; }
+  background-color: #e0e0e0 !important; }
   .skills .skills-steps {
     overflow: auto;
     padding-top: 0;
@@ -662,6 +665,7 @@ ul.actions li a.button {
             font-size: 1.2em; } }
       .article-reader .article-reader-body .article-reader-body-inner img {
         max-width: 620px;
+        width: 100%;
         margin-bottom: 25px; }
         @media screen and (max-width: 900px) {
           .article-reader .article-reader-body .article-reader-body-inner img {

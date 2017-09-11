@@ -78,12 +78,12 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 
 			<div class="nav-mobile">
 				<ul>
-					<li><a href="#intro">Qui sommes-nous?</a></li>
-					<li><a href="#one">Compétences</a></li>
+					<!-- <li><a href="#intro">Qui sommes-nous?</a></li> -->
+					<li><a href="#one">Accueil</a></li>
 					<li><a href="#two">Projets</a></li>
 					<li><a href="#three">Audience</a></li>
-					<li><a href="#five">Distinctions</a></li>
-					<li><a href="#four">Contact</a></li>
+					<li><a href="#four">Médias</a></li>
+					<li><a href="#five">Contact</a></li>
 				</ul>
 			</div>
 
@@ -91,16 +91,17 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 			<section id="sidebar">
 				<img class="hamburger" src="images/menu-01.svg" alt="">
 				<img class="cross" src="images/cross-01.svg" alt="">
+				<img class="cross2" src="images/cross-01.svg" alt="">
 				<div class="inner">
 					<img class="logo" src="images/logo-bar-test2.svg" alt="">
 					<nav>
 						<ul>
-							<li><a href="#intro">Qui sommes-nous?</a></li>
-							<li><a href="#one">Compétences</a></li>
+							<!-- <li><a href="#intro">Qui sommes-nous?</a></li> -->
+							<li><a href="#one">Accueil</a></li>
 							<li><a href="#two">Projets</a></li>
 							<li><a href="#three">Audience</a></li>
-							<li><a href="#five">Distinctions</a></li>
-							<li><a href="#four">Contact</a></li>
+							<li><a href="#four">Médias</a></li>
+							<li><a href="#five">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -115,7 +116,7 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="intro-bg">
-							<video autoplay muted>
+							<video autoplay muted loop>
 							  <source src="https://player.vimeo.com/external/215639104.hd.mp4?s=6992bfcc3f7f2ed03e200e36c2bda9e4b27bee3a&profile_id=119" type="video/mp4"> 
 							  Votre navigateur ne supporte pas les vidéos HTML%.
 							</video>
@@ -184,7 +185,7 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 									<p>La réalisation de vidéos informatives, pédagogiques et divertissantes, sous forme de motion design, de séries vidéos, etc.</p>
 								</section>
 								<section>
-									<span class="icon major fa-desktop"></span>
+									<span class="icon major fa-bar-chart"></span>
 									<h3>DATA</h3>
 									<p>La mise en place de concours, questionnaires, newsletters spéciales pour vous permettre une récolte de données précises.</p>
 								</section>
@@ -224,7 +225,8 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 							<article class="brick brick-sm" data-url="septmus.html">
 								<div class="brick-bg" style="background: url('images/thumb-septmus-out.jpg');"></div>
 								<div class="brick-excerpt">
-									<h1 class="brick-title">Brick title</h1>
+									<span class="brick-tag">Mélomanie</span>
+									<h1 class="brick-title">Septembre musical</h1>
 									<span class="brick-lead">
 										We need partner of every size, i every country, with genuine love for every crop that we protect
 									</span>
@@ -233,10 +235,11 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 								<div class="brick-shadow"></div>
 								<!-- <div class="brick-overlay"></div> -->
 							</article>
-							<article class="brick brick-sm" data-url="medgeno.html">
-								<div class="brick-bg" style="background: url('images/thumb-medgeno.jpg');"></div>
+							<article class="brick brick-sm" data-url="bonhote.html">
+								<div class="brick-bg" style="background: url('images/thumb-bonhote-out.jpg');"></div>
 								<div class="brick-excerpt">
-									<h1 class="brick-title">Brick title</h1>
+									<span class="brick-tag">Pognon</span>
+									<h1 class="brick-title">Vidéo banque Bonhôte</h1>
 									<span class="brick-lead">
 										We need partner of every size, i every country, with genuine love for every crop that we protect
 									</span>
@@ -287,10 +290,9 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 								
 							</div>
 						</div>
-						
 					</section>
 
-					<section id="five" class="wrapper excellence fade-up">
+					<section id="four" class="wrapper excellence fade-up">
 						<div class="inner">
 							<h2>
 								L'excellence partagée
@@ -331,32 +333,9 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 								
 						</div>
 					</section>
-
-					<!-- <section id="five" class="awards wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Distinctions</h2>
-							<div class="features">
-								<section>
-									<img src="images/logo-bosw-01.svg" alt="">
-									<h5>BRONZE<br>catégorie<br>ergonomie</h5>
-									<h3>Best of swiss web 2016 (Suisse)</h3>
-								</section>
-								<section>
-									<img src="images/logo-ona-01.svg" alt="">
-									<h5>General Excellence in Online Journalism Medium</h5>
-									<h3>Online News Association (Etats-Unis)</h3>
-								</section>
-								<section>
-									<img src="images/logo-grand-01.svg" alt="">
-									<h5>GOLD<br>catégorie<br>mobile</h5>
-									<h3>Grand prix romand de la création (Suisse)</h3>
-								</section>
-							</div>	
-						</div>
-					</section>
- -->
+					
 				<!-- Three -->
-					<section id="four" class="form wrapper style1 fade-up">
+					<section id="five" class="form wrapper style1 fade-up">
 						<div class="inner">
 							
 							<div class="split style1">
@@ -466,9 +445,9 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 			<script src="assets/js/contact.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+			<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>-->
+			<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>-->
 			<script src="assets/js/viewport.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
         	<script src="assets/js/jquery.counterup.min.js"></script>

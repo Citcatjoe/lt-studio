@@ -1,7 +1,21 @@
 jQuery(document).ready(function($) 
 {
-	var $overlay =('.overlay');
+
+
+
+	
+
+
+	var $overlay = $('.overlay');
+	var $nav = $('nav');
+	var $navMobile = $('.hamburger');
+
+	var $cross2 = $('.cross2');
 	var tlIntro = new TimelineMax();
+
+
+
+	//$nav.fadeOut("slow");
 
 	tlIntro
 		.to($overlay, 1, {backgroundColor: '#FCCC04'}, '+=1.5')
@@ -38,19 +52,17 @@ jQuery(document).ready(function($)
 	var $articleReader = $('.article-reader');
 	
 	var dataUrl;
+
 	
-
-
-
-	$(".spotlights .brick").on('click', function(e) {
+	
+	// $('ul li a').on('click', function(e) {
+	// 	if($wrapper.hasClass('is-faded'))
+	// 	{
+	// 		//alert('lol');
+	// 		fireAnim();
+	// 	}
 		
-		dataUrl = $(this).attr('data-url');
-		//alert(dataUrl);
-		$articleReader.load('../../load/' + dataUrl + '?' + Date.now(), function(){
-			fireAnimChecker();
-		});
-		event.preventDefault();
-	});
+	// });
 
 	function fireAnimChecker(){
 		if($body.hasClass('is-animating'))
@@ -62,6 +74,18 @@ jQuery(document).ready(function($)
 			fireAnim();
 		}
 	}
+
+	$(".spotlights .brick").on('click', function(e) {
+		
+		dataUrl = $(this).attr('data-url');
+		//alert(dataUrl);
+		$articleReader.load('../../load/' + dataUrl + '?' + Date.now(), function(){
+			fireAnimChecker();
+		});
+		e.preventDefault();
+	});
+
+	
 
 	function fireAnim(){
 
@@ -80,14 +104,18 @@ jQuery(document).ready(function($)
 				tlProjectOpening
 					
 					//.to([$articleBack], 0.3, {scale: 0, ease: Back.easeIn.config(5)})
+					
+					
 					.to($body, 0, {css:{className:'+=is-animating'}})
-					.to([$articleReaderHeaderInner, $articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut})
+					.to([$cross2], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
+					.to([$nav], 0.75, {autoAlpha: 1, ease: Power4.easeOut}, '-=0.75')
+					.to([$articleReaderHeaderInner, $articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut}, '-=0.75')
 					//.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
 					.to($articleReaderBody, 0, {css:{className:'-=is-scrollable'}})
 					.to($articleReader, 0, {css:{className:'-=is-scrollable'}})
 					.to([$articleReaderHeader], 0.75, {yPercent: '100', ease: Power4.easeOut})
 					.to([$articleReaderBody], 0.75, {yPercent: '-100', ease: Power4.easeOut}, '-=0.75')
-					.to([$wrapper], 0.75, {autoAlpha: 1, scale: 1, ease: Power4.easeOut})
+					.to([$wrapper], 0.75, {autoAlpha: 1, scale: 1, ease: Power4.easeOut}, '-=0.5')
 					.to([$articleReader], 0, {zIndex: 0})
 					.to($body, 0, {css:{className:'-=is-overflow-hidden'}})
 					.to($body, 0, {css:{className:'-=is-animating'}});
@@ -107,9 +135,11 @@ jQuery(document).ready(function($)
 					.to($body, 0, {css:{className:'+=is-overflow-hidden'}})
 					.to([$articleReader], 0, {zIndex: 2})
 					.to([$wrapper], 0.75, {autoAlpha: 0.75, scale: 0.9, ease: Power4.easeOut})
-					.to([$articleReaderHeader, $articleReaderBody], 0.75, {yPercent: '0', ease: Power4.easeOut})
-					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
-					.to([$articleReaderBodyInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
+					.to([$articleReaderHeader, $articleReaderBody], 0.75, {yPercent: '0', ease: Power4.easeOut}, '-=0.5')
+					.to([$articleReaderHeaderInner], 0.5, {autoAlpha: 1, ease: Power4.easeOut})
+					.to([$articleReaderBodyInner], 0.5, {autoAlpha: 1, ease: Power4.easeOut}, '-=0.5')
+					.to([$nav], 0.75, {autoAlpha: 0, ease: Power4.easeOut}, '-=0.5')
+					.to([$cross2], 0.75, {autoAlpha: 1, ease: Power4.easeOut}, '-=0.75')
 					//.to([$articleBack], 0.75, {scale: 1, ease: Elastic.easeOut.config(1, 0.3)})
 					.to($articleReader, 0, {css:{className:'+=is-scrollable'}})
 					.to($articleReaderBody, 0, {css:{className:'+=is-scrollable'}})
@@ -125,13 +155,16 @@ jQuery(document).ready(function($)
 					
 					//.to([$articleBack], 0.3, {scale: 0, ease: Back.easeIn.config(5)})
 					.to($body, 0, {css:{className:'+=is-animating'}})
-					.to([$articleReaderHeaderInner, $articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut})
+					.to([$cross2], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
+					.to([$navMobile], 0.75, {autoAlpha: 1, ease: Power4.easeOut}, '-=0.75')
+					
+					.to([$articleReaderHeaderInner, $articleReaderBodyInner], 0.75, {autoAlpha:0, ease: Power4.easeOut}, '-=0.75')
 					//.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
 					.to($articleReaderBody, 0, {css:{className:'-=is-scrollable'}})
 					.to($articleReader, 0, {css:{className:'-=is-scrollable'}})
 					.to([$articleReaderHeader], 0.75, {xPercent: '100', ease: Power4.easeOut})
 					.to([$articleReaderBody], 0.75, {xPercent: '-100', ease: Power4.easeOut}, '-=0.75')
-					.to([$wrapper], 0.75, {autoAlpha: 1, scale: 1, ease: Power4.easeOut})
+					.to([$wrapper], 0.75, {autoAlpha: 1, scale: 1, ease: Power4.easeOut}, '-=0.5')
 					.to([$articleReader], 0, {zIndex: 0})
 					.to($body, 0, {css:{className:'-=is-overflow-hidden'}})
 					.to($body, 0, {css:{className:'-=is-animating'}});
@@ -142,8 +175,10 @@ jQuery(document).ready(function($)
 				.set([$articleReaderHeader], {xPercent: '-100', yPercent: '0'})
 				.set([$articleReaderBody], {xPercent: '100', yPercent: '0'})
 				.set([$articleReaderHeaderInner], {autoAlpha: 0})
-				.set([$articleReaderBodyInner], {autoAlpha: 0})
+				.set([$articleReaderBodyInner], {autoAlpha: 0});
 				//.set([$articleBack], {scale: 0});;
+
+				
 
 				$wrapper.addClass('is-faded');
 				tlProjectOpening
@@ -151,9 +186,11 @@ jQuery(document).ready(function($)
 					.to($body, 0, {css:{className:'+=is-overflow-hidden'}})
 					.to([$articleReader], 0, {zIndex: 2})
 					.to([$wrapper], 0.75, {autoAlpha: 0.75, scale: 0.9, ease: Power4.easeOut})
-					.to([$articleReaderHeader, $articleReaderBody], 0.75, {xPercent: '0', ease: Power4.easeOut})
+					.to([$articleReaderHeader, $articleReaderBody], 0.75, {xPercent: '0', ease: Power4.easeOut}, '-=0.5')
 					.to([$articleReaderHeaderInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
-					.to([$articleReaderBodyInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut})
+					.to([$articleReaderBodyInner], 0.75, {autoAlpha: 1, ease: Power4.easeOut}, '-=0.75')
+					.to([$navMobile], 0.75, {autoAlpha: 0, ease: Power4.easeOut}, '-=0.75')
+					.to([$cross2], 0.75, {autoAlpha: 1, ease: Power4.easeOut}, '-=0.75')
 					//.to([$articleBack], 0.75, {scale: 1, ease: Elastic.easeOut.config(1, 0.3)})
 					.to($articleReader, 0, {css:{className:'+=is-scrollable'}})
 					.to($articleReaderBody, 0, {css:{className:'+=is-scrollable'}})
@@ -162,8 +199,13 @@ jQuery(document).ready(function($)
 		}
 
 		$articleBack.on('click', function(e) {
-			fireAnim();
+			fireAnimChecker();
+			e.preventDefault();
 		});
+
+
+
+		//navReplace();
 
 		// $articleBackMobile.on('click', function(e) {
 		// 	fireAnim();
@@ -171,6 +213,32 @@ jQuery(document).ready(function($)
 		// });
 		event.preventDefault();
 	}
+
+	// function navReplace(){
+
+		$($cross2).on('click', function(e) {
+			fireAnimChecker();
+		});
+	// 	if($wrapper.hasClass('is-faded'))
+	// 	{
+	// 		$('.cross2').fadeIn(function(){
+	// 			$('.cross2').on('click', function(e) {
+	// 				fireAnim();
+	// 			});
+	// 		});
+	// 		$($nav).fadeOut(); 
+			
+	// 	}
+	// 	else
+	// 	{
+			
+
+	// 		$('.cross2').fadeOut();
+	// 		$($nav).fadeIn(); 
+	// 	}
+
+
+	// }
 
 	//BOUTONS PROJETS
 	// $(".spotlights .button").on('click', function(e) {

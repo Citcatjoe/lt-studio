@@ -394,6 +394,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/jquery.scrolly.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery.scrolly.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/jquery.scrolly.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -832,12 +842,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/contact.php",
-		"oF": 0
-		},
-	"\/docs\/timeline-jubile.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/docs\/timeline-jubile.pdf",
 		"oF": 0
 		},
 	"\/elements.html": {
@@ -1382,6 +1386,26 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/thumb-bonhote-in.jpg": {
+		"ft": 16384,
+		"iS": 139195,
+		"oA": 0,
+		"oAP": "\/images\/thumb-bonhote-in.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/thumb-bonhote-out.jpg": {
+		"ft": 16384,
+		"iS": 121259,
+		"oA": 0,
+		"oAP": "\/images\/thumb-bonhote-out.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/thumb-medgeno.jpg": {
 		"ft": 16384,
 		"iS": 83316,
@@ -1544,10 +1568,10 @@
 		"oAP": "\/load\/boldor.html",
 		"oF": 0
 		},
-	"\/load\/medgeno.html": {
+	"\/load\/bonhote.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/load\/medgeno.html",
+		"oAP": "\/load\/bonhote.html",
 		"oF": 0
 		},
 	"\/load\/septmus.html": {
