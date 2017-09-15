@@ -225,10 +225,10 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 							<article class="brick brick-sm" data-url="septmus.html">
 								<div class="brick-bg" style="background: url('images/thumb-septmus-out.jpg');"></div>
 								<div class="brick-excerpt">
-									<span class="brick-tag">Mélomanie</span>
-									<h1 class="brick-title">Septembre musical</h1>
+									<span class="brick-tag">Culture</span>
+									<h1 class="brick-title">Septembre Musical</h1>
 									<span class="brick-lead">
-										We need partner of every size, i every country, with genuine love for every crop that we protect
+										Une vidéo sur l’impact des grands compositeurs classiques sur le cinéma d’aujourd’hui. On y retrouve les compositeurs joués à l’occasion du Septembre Musical.
 									</span>
 								</div>
 								<!-- <div class="brick-radialgradient"></div> -->
