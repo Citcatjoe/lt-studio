@@ -33,6 +33,9 @@ body {
   background: transparent; }
   body.is-overflow-hidden {
     overflow: hidden; }
+    @media screen and (max-width: 1000px) {
+      body.is-overflow-hidden {
+        position: fixed; } }
 
 h1 {
   font-family: 'Montserrat';
@@ -629,7 +632,8 @@ ul.actions li a.button {
         width: 100%;
         height: auto; } }
     .article-reader .article-reader-body.is-scrollable {
-      overflow-y: scroll; }
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch; }
       @media screen and (max-width: 900px) {
         .article-reader .article-reader-body.is-scrollable {
           overflow-y: initial; } }

@@ -5,7 +5,6 @@ $color2:			#484F53;
 $color-title:		#000000;
 $color-text:		rgba(0, 0, 0, 0.5); 
 
-
 button.fancybox-button--thumbs,
 button.fancybox-button--fullscreen,
 button.fancybox-button--play
@@ -63,6 +62,11 @@ body
 	&.is-overflow-hidden
 	{
 		overflow: hidden;
+		//
+
+		@media screen and (max-width: 1000px) {
+		 	position: fixed;
+		}
 	}
 }
 
@@ -1048,10 +1052,13 @@ ul.actions
 	height: 100%;
 	//background: red;
 	z-index: 0;
+	//-webkit-overflow-scrolling: touch;
+	//overflow-scrolling: touch;
 
 	&.is-scrollable //not used
 	{
 		overflow-y: scroll;
+		//-webkit-overflow-scrolling: touch;
 
 		@media screen and (min-width: 900px) {
 		 	overflow-y: initial;
@@ -1168,6 +1175,7 @@ ul.actions
 		&.is-scrollable
 		{
 			overflow-y: scroll;
+			-webkit-overflow-scrolling: touch;
 
 			@media screen and (max-width: 900px) {
 		 		overflow-y: initial;

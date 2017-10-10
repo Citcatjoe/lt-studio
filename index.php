@@ -59,13 +59,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,600" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900,900i" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
-
-		<!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
-0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js“:”//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js”;c=e.getElementsByTagName(“script”)[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
-mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />		
 	</head>
 	<body>
 			<!-- Google Tag Manager (noscript) -->
@@ -73,7 +67,7 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<!-- End Google Tag Manager (noscript) -->
 
-			<!-- <div class="overlay"></div> -->
+			<div class="overlay"></div>
 			<div class="infos"></div>
 
 			<div class="nav-mobile">
@@ -116,8 +110,8 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="intro-bg">
-							<video autoplay muted loop>
-							  <source src="https://player.vimeo.com/external/215639104.hd.mp4?s=6992bfcc3f7f2ed03e200e36c2bda9e4b27bee3a&profile_id=119" type="video/mp4"> 
+							<video muted loop>
+							  <source src="https://player.vimeo.com/external/215639104.hd.mp4?s=6992bfcc3f7f2ed03e200e36c2bda9e4b27bee3a&profile_id=175" type="video/mp4"> 
 							  Votre navigateur ne supporte pas les vidéos HTML%.
 							</video>
 						</div>
@@ -238,10 +232,10 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 							<article class="brick brick-sm" data-url="bonhote.html">
 								<div class="brick-bg" style="background: url('images/thumb-bonhote-out.jpg');"></div>
 								<div class="brick-excerpt">
-									<span class="brick-tag">Pognon</span>
-									<h1 class="brick-title">Vidéo banque Bonhôte</h1>
+									<span class="brick-tag">Banque et finance</span>
+									<h1 class="brick-title">Série de vidéos explicatives avec la Banque Bonhôte</h1>
 									<span class="brick-lead">
-										We need partner of every size, i every country, with genuine love for every crop that we protect
+										Une série de vidéos animées qui vulgarisent des sujets financiers pour les rendre accessibles au plus grand nombre.
 									</span>
 								</div>
 								<!-- <div class="brick-radialgradient"></div> -->
@@ -316,14 +310,14 @@ mixpanel.init("ce9b6a12d58dccbf7dfdc9dd3a8adc09");</script><!-- end Mixpanel -->
 						</div>
 						<div class="inner excellence-awards">	
 							<div class="excellence-awards-container">
+								<img src="images/awards-ona17.svg" alt="">
+								<h5>LAURÉAT «General Excellence in Online Journalism»</h5>
+								<h3>Online Journalism Association (Monde)</h3>
+							</div>
+							<div class="excellence-awards-container">
 								<img src="images/awards-bosw.svg" alt="">
 								<h5>BRONZE catégorie ergonomie</h5>
 								<h3>Best of swiss web 2016 (Suisse)</h3>
-							</div>
-							<div class="excellence-awards-container">
-								<img src="images/awards-ona16.svg" alt="">
-								<h5>General Excellence in Online Journalism Medium</h5>
-								<h3>Online News Association (Etats-Unis)</h3>
 							</div>
 							<div class="excellence-awards-container">
 								<img src="images/awards-grand.svg" alt="">

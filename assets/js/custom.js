@@ -7,18 +7,25 @@ jQuery(document).ready(function($)
 
 
 	var $overlay = $('.overlay');
+	var $introVid = $('#intro .intro-bg video');
 	var $nav = $('nav');
-	var $navMobile = $('.hamburger');
+	var $navMobile = $('.hamburger'); 
 
 	var $cross2 = $('.cross2');
 	var tlIntro = new TimelineMax();
+
+
+	function addAtt()
+		{
+			$introVid[0].play();
+		}
 
 
 
 	//$nav.fadeOut("slow");
 
 	tlIntro
-		.to($overlay, 1, {backgroundColor: '#FCCC04'}, '+=1.5')
+		.to($overlay, 1, {backgroundColor: '#FCCC04', onComplete: addAtt}, '+=1.5')
 		.to($overlay, 0.5, {yPercent: '-100'});
 
 		
@@ -50,7 +57,7 @@ jQuery(document).ready(function($)
 	var $body = $('body');
 	var $wrapper = $('#wrapper');
 	var $articleReader = $('.article-reader');
-	
+	var pageYOffset = 0;
 	var dataUrl;
 
 	
@@ -155,6 +162,7 @@ jQuery(document).ready(function($)
 					
 					//.to([$articleBack], 0.3, {scale: 0, ease: Back.easeIn.config(5)})
 					.to($body, 0, {css:{className:'+=is-animating'}})
+					.to($body, 0, {css:{className:'-=is-overflow-hidden'}}) //était à la fin mais ici pour permettre le scoll back
 					.to([$cross2], 0.75, {autoAlpha: 0, ease: Power4.easeOut})
 					.to([$navMobile], 0.75, {autoAlpha: 1, ease: Power4.easeOut}, '-=0.75')
 					
@@ -166,11 +174,22 @@ jQuery(document).ready(function($)
 					.to([$articleReaderBody], 0.75, {xPercent: '-100', ease: Power4.easeOut}, '-=0.75')
 					.to([$wrapper], 0.75, {autoAlpha: 1, scale: 1, ease: Power4.easeOut}, '-=0.5')
 					.to([$articleReader], 0, {zIndex: 0})
-					.to($body, 0, {css:{className:'-=is-overflow-hidden'}})
+					
 					.to($body, 0, {css:{className:'-=is-animating'}});
+
+					if (pageYOffset > 0) {
+						window.setTimeout(function() {
+							window.scrollTo(0, pageYOffset);
+							//alert('I should scrolled to ' + pageYOffset);
+							pageYOffset = 0;
+						}, 200);
+					}
 			}
 			else
 			{
+				pageYOffset = window.pageYOffset;
+				//alert('I will scroll to ' + pageYOffset);
+
 				tlProjectOpening
 				.set([$articleReaderHeader], {xPercent: '-100', yPercent: '0'})
 				.set([$articleReaderBody], {xPercent: '100', yPercent: '0'})
@@ -183,7 +202,7 @@ jQuery(document).ready(function($)
 				$wrapper.addClass('is-faded');
 				tlProjectOpening
 					.to($body, 0, {css:{className:'+=is-animating'}})
-					.to($body, 0, {css:{className:'+=is-overflow-hidden'}})
+					
 					.to([$articleReader], 0, {zIndex: 2})
 					.to([$wrapper], 0.75, {autoAlpha: 0.75, scale: 0.9, ease: Power4.easeOut})
 					.to([$articleReaderHeader, $articleReaderBody], 0.75, {xPercent: '0', ease: Power4.easeOut}, '-=0.5')
@@ -194,6 +213,7 @@ jQuery(document).ready(function($)
 					//.to([$articleBack], 0.75, {scale: 1, ease: Elastic.easeOut.config(1, 0.3)})
 					.to($articleReader, 0, {css:{className:'+=is-scrollable'}})
 					.to($articleReaderBody, 0, {css:{className:'+=is-scrollable'}})
+					.to($body, 0, {css:{className:'+=is-overflow-hidden'}}) //Descendu ici pour pas que sa scroll en haut direct au début de l'anim
 					.to($body, 0, {css:{className:'-=is-animating'}});
 			}
 		}
@@ -236,7 +256,10 @@ jQuery(document).ready(function($)
 	// 		$('.cross2').fadeOut();
 	// 		$($nav).fadeIn(); 
 	// 	}
-
+	function test(){
+		alert('test');
+	}
+	
 
 	// }
 
