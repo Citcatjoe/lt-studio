@@ -83,13 +83,23 @@ jQuery(document).ready(function($)
 	}
 
 	$(".spotlights .brick").on('click', function(e) {
+
+		if($(this).hasClass('direct-link'))
+		{
+			window.open('https://www.facebook.com/Magazine.Illustre/videos/1850250788361085/');
+
+		}
+		else
+		{
+			dataUrl = $(this).attr('data-url');
+			//alert(dataUrl);
+			$articleReader.load('../../load/' + dataUrl + '?' + Date.now(), function(){
+				fireAnimChecker();
+			});
+			e.preventDefault();
+		}
 		
-		dataUrl = $(this).attr('data-url');
-		//alert(dataUrl);
-		$articleReader.load('../../load/' + dataUrl + '?' + Date.now(), function(){
-			fireAnimChecker();
-		});
-		e.preventDefault();
+		
 	});
 
 	

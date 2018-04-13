@@ -7,7 +7,7 @@
 		"uuidString": "963F3CE8-22AC-4226-A67F-916BDFF160A9"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26680",
 "files": {
 	"\/android-icon-144x144.png": {
 		"ft": 32768,
@@ -207,6 +207,7 @@
 		"oS": 3
 		},
 	"\/assets\/css\/custom.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/custom.css.map",
@@ -279,12 +280,14 @@
 		"oS": 3
 		},
 	"\/assets\/css\/main.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/main.css.map",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontawesome-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontawesome-webfont.eot",
@@ -301,24 +304,28 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/fontawesome-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontawesome-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontawesome-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontawesome-webfont.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/FontAwesome.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/FontAwesome.otf",
@@ -833,18 +840,28 @@
 		"uL": 1
 		},
 	"\/browserconfig.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/browserconfig.xml",
 		"oF": 0
 		},
 	"\/contact.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/contact.php",
 		"oF": 0
 		},
+	"\/docs\/timeline-jubile.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/timeline-jubile.pdf",
+		"oF": 0
+		},
 	"\/elements.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/elements.html",
@@ -884,16 +901,28 @@
 		"q": 100
 		},
 	"\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
 	"\/generic.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/generic.html",
 		"oF": 0
+		},
+	"\/images\/awards-bosw.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/awards-bosw.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/awards-grand.svg": {
 		"ft": 2097152,
@@ -910,6 +939,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/awards-ona16.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/awards-ona17.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/awards-ona17.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -958,6 +997,7 @@
 	"\/images\/illustration-longread-boldor.jpg": {
 		"ft": 16384,
 		"iS": 319419,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/illustration-longread-boldor.jpg",
 		"oF": 0,
@@ -1035,11 +1075,32 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/logo-bonhote-hero.png": {
+		"ft": 32768,
+		"iS": 49637,
+		"oA": 0,
+		"oAP": "\/images\/logo-bonhote-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logo-bosw-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/logo-bosw-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-canal-hero.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-canal-hero.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1095,6 +1156,27 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/logo-jobcloud-hero.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-jobcloud-hero.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-loro-hero.png": {
+		"ft": 32768,
+		"iS": 20994,
+		"oA": 0,
+		"oAP": "\/images\/logo-loro-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logo-lt-black.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1114,6 +1196,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/logo-mirabaud-hero.png": {
+		"ft": 32768,
+		"iS": 43898,
+		"oA": 0,
+		"oAP": "\/images\/logo-mirabaud-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/logo-ona-01.svg": {
 		"ft": 2097152,
@@ -1144,6 +1237,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/logo-rente-hero.png": {
+		"ft": 32768,
+		"iS": 20648,
+		"oA": 0,
+		"oAP": "\/images\/logo-rente-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/logo-tv8-black.svg": {
 		"ft": 2097152,
@@ -1288,6 +1392,7 @@
 	"\/images\/parallax1.jpg": {
 		"ft": 16384,
 		"iS": 114970,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/parallax1.jpg",
 		"oF": 0,
@@ -1298,6 +1403,7 @@
 	"\/images\/parallax2.jpg": {
 		"ft": 16384,
 		"iS": 245457,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/parallax2.jpg",
 		"oF": 0,
@@ -1318,6 +1424,7 @@
 	"\/images\/prize1.jpg": {
 		"ft": 16384,
 		"iS": 113415,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/prize1.jpg",
 		"oF": 0,
@@ -1328,6 +1435,7 @@
 	"\/images\/prize2.jpg": {
 		"ft": 16384,
 		"iS": 126102,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/prize2.jpg",
 		"oF": 0,
@@ -1338,6 +1446,7 @@
 	"\/images\/prize3.jpg": {
 		"ft": 16384,
 		"iS": 105369,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/prize3.jpg",
 		"oF": 0,
@@ -1359,6 +1468,7 @@
 	"\/images\/thumb-boldor.jpg": {
 		"ft": 16384,
 		"iS": 113521,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/thumb-boldor.jpg",
 		"oF": 0,
@@ -1369,6 +1479,7 @@
 	"\/images\/thumb-boldor2.jpg": {
 		"ft": 16384,
 		"iS": 757525,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/thumb-boldor2.jpg",
 		"oF": 0,
@@ -1379,6 +1490,7 @@
 	"\/images\/thumb-bonhote-in.jpg": {
 		"ft": 16384,
 		"iS": 139195,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/thumb-bonhote-in.jpg",
 		"oF": 0,
@@ -1389,6 +1501,7 @@
 	"\/images\/thumb-bonhote-out.jpg": {
 		"ft": 16384,
 		"iS": 121259,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/thumb-bonhote-out.jpg",
 		"oF": 0,
@@ -1396,9 +1509,21 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/thumb-loro-out.jpg": {
+		"ft": 16384,
+		"iS": 300045,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/thumb-loro-out.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/thumb-medgeno.jpg": {
 		"ft": 16384,
 		"iS": 83316,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/thumb-medgeno.jpg",
 		"oF": 0,
@@ -1409,6 +1534,7 @@
 	"\/images\/thumb-montre8h.jpg": {
 		"ft": 16384,
 		"iS": 175487,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/thumb-montre8h.jpg",
 		"oF": 0,
@@ -1419,6 +1545,7 @@
 	"\/images\/thumb-septmus-in.jpg": {
 		"ft": 16384,
 		"iS": 170027,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/thumb-septmus-in.jpg",
 		"oF": 0,
@@ -1429,6 +1556,7 @@
 	"\/images\/thumb-septmus-out.jpg": {
 		"ft": 16384,
 		"iS": 306311,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/thumb-septmus-out.jpg",
 		"oF": 0,
@@ -1439,6 +1567,7 @@
 	"\/images\/welcome.jpg": {
 		"ft": 16384,
 		"iS": 378747,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/welcome.jpg",
 		"oF": 0,
@@ -1449,6 +1578,7 @@
 	"\/images\/x-article-sponso-2.jpg": {
 		"ft": 16384,
 		"iS": 436896,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/x-article-sponso-2.jpg",
 		"oF": 0,
@@ -1459,6 +1589,7 @@
 	"\/images\/x-article-sponso.jpg": {
 		"ft": 16384,
 		"iS": 231651,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/x-article-sponso.jpg",
 		"oF": 0,
@@ -1469,6 +1600,7 @@
 	"\/images\/x-banques.jpg": {
 		"ft": 16384,
 		"iS": 200614,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/x-banques.jpg",
 		"oF": 0,
@@ -1479,6 +1611,7 @@
 	"\/images\/x-longread-1.jpg": {
 		"ft": 16384,
 		"iS": 250086,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/x-longread-1.jpg",
 		"oF": 0,
@@ -1489,6 +1622,7 @@
 	"\/images\/x-longread-2.jpg": {
 		"ft": 16384,
 		"iS": 237668,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/x-longread-2.jpg",
 		"oF": 0,
@@ -1499,6 +1633,7 @@
 	"\/images\/x-longread-3.jpg": {
 		"ft": 16384,
 		"iS": 272864,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/x-longread-3.jpg",
 		"oF": 0,
@@ -1509,6 +1644,7 @@
 	"\/images\/x-longread-4.jpg": {
 		"ft": 16384,
 		"iS": 474656,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/x-longread-4.jpg",
 		"oF": 0,
@@ -1519,6 +1655,7 @@
 	"\/images\/x-longread.jpg": {
 		"ft": 16384,
 		"iS": 224178,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/x-longread.jpg",
 		"oF": 0,
@@ -1529,6 +1666,7 @@
 	"\/images\/x-medecine-genomique.jpg": {
 		"ft": 16384,
 		"iS": 215917,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/x-medecine-genomique.jpg",
 		"oF": 0,
@@ -1539,6 +1677,7 @@
 	"\/images\/x-timeline.jpg": {
 		"ft": 16384,
 		"iS": 443448,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/x-timeline.jpg",
 		"oF": 0,
@@ -1547,24 +1686,42 @@
 		"q": 100
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/ioldndex.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ioldndex.html",
+		"oF": 0
+		},
 	"\/load\/boldor.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/load\/boldor.html",
 		"oF": 0
 		},
 	"\/load\/bonhote.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/load\/bonhote.html",
 		"oF": 0
 		},
+	"\/load\/medgeno.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/load\/medgeno.html",
+		"oF": 0
+		},
 	"\/load\/septmus.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/load\/septmus.html",
@@ -1625,6 +1782,7 @@
 	"\/prod\/08 18 Le Temps 02 (1).jpg": {
 		"ft": 16384,
 		"iS": 3353765,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/prod\/08 18 Le Temps 02 (1).jpg",
 		"oF": 0,
@@ -1635,6 +1793,7 @@
 	"\/prod\/08 18 Le Temps 02.jpg": {
 		"ft": 16384,
 		"iS": 4595863,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/prod\/08 18 Le Temps 02.jpg",
 		"oF": 0,
@@ -1645,6 +1804,7 @@
 	"\/prod\/13 18 Le Temps.jpg": {
 		"ft": 16384,
 		"iS": 377814,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/prod\/13 18 Le Temps.jpg",
 		"oF": 0,
@@ -1653,6 +1813,7 @@
 		"q": 100
 		},
 	"\/prod\/article-sponso.psd": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/article-sponso.psd",
@@ -1683,6 +1844,7 @@
 	"\/prod\/blackswan\/fanart.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/prod\/blackswan\/fanart.jpg",
 		"oF": 0,
@@ -1693,6 +1855,7 @@
 	"\/prod\/blackswan\/fanart1.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/prod\/blackswan\/fanart1.jpg",
 		"oF": 0,
@@ -1703,6 +1866,7 @@
 	"\/prod\/blackswan\/fanart2.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/prod\/blackswan\/fanart2.jpg",
 		"oF": 0,
@@ -1713,6 +1877,7 @@
 	"\/prod\/blackswan\/fanart3.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/prod\/blackswan\/fanart3.jpg",
 		"oF": 0,
@@ -1723,6 +1888,7 @@
 	"\/prod\/blackswan\/fanart4.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/prod\/blackswan\/fanart4.jpg",
 		"oF": 0,
@@ -1733,6 +1899,7 @@
 	"\/prod\/blackswan\/fanart5.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/prod\/blackswan\/fanart5.jpg",
 		"oF": 0,
@@ -1754,6 +1921,7 @@
 	"\/prod\/blackswan\/poster.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/prod\/blackswan\/poster.jpg",
 		"oF": 0,
@@ -1762,78 +1930,91 @@
 		"q": 100
 		},
 	"\/prod\/couleurs.ai": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/couleurs.ai",
 		"oF": 0
 		},
 	"\/prod\/longread-sponso.psd": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/longread-sponso.psd",
 		"oF": 0
 		},
 	"\/prod\/LT - GL 18 mai 2016.key": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/LT - GL 18 mai 2016.key",
 		"oF": 0
 		},
 	"\/prod\/LT_Présentation_Presentation Native_UBP _20.10.16.pptx": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/LT_Présentation_Presentation Native_UBP _20.10.16.pptx",
 		"oF": 0
 		},
 	"\/prod\/LT_Tiréàpart_génomique-20160428.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/LT_Tiréàpart_génomique-20160428.pdf",
 		"oF": 0
 		},
 	"\/prod\/LT_tiréàpart_Horizon2016_20160112.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/LT_tiréàpart_Horizon2016_20160112.pdf",
 		"oF": 0
 		},
 	"\/prod\/media-icons.ai": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/media-icons.ai",
 		"oF": 0
 		},
 	"\/prod\/Native Stories V2.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/Native Stories V2.pdf",
 		"oF": 0
 		},
 	"\/prod\/Native Stories.docx": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/Native Stories.docx",
 		"oF": 0
 		},
 	"\/prod\/Native Stories.pages": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/Native Stories.pages",
 		"oF": 0
 		},
 	"\/prod\/Simple-Browser.psd": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/Simple-Browser.psd",
 		"oF": 0
 		},
 	"\/prod\/social.psd": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/social.psd",
 		"oF": 0
 		},
 	"\/prod\/Tiré-à-part_Banque_du_futur_29.8.2016.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/Tiré-à-part_Banque_du_futur_29.8.2016.pdf",
@@ -1850,9 +2031,24 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/robots (28.09.17 10:18).txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/robots (28.09.17 10:18).txt",
+		"oF": 0
+		},
+	"\/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/robots.txt",
+		"oF": 0
+		},
 	"\/social.jpg": {
 		"ft": 16384,
 		"iS": 136998,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/social.jpg",
 		"oF": 0,
@@ -1869,7 +2065,8 @@
 	"creationDate": 522229332,
 	"displayValue": "lt-studio",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-leo"
+	"iconImageName": "meme-leo",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1877,6 +2074,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -2405,6 +2603,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -2436,6 +2638,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -2469,9 +2675,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -2501,6 +2707,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2510,14 +2720,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3621,7 +3823,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -3654,6 +3857,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3665,6 +3869,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -3695,7 +3900,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3727,13 +3933,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3742,7 +3948,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3762,7 +3969,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3790,7 +3998,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,

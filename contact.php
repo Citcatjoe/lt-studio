@@ -72,7 +72,7 @@
 		exit();
 	}
 
-	$to = 'thomas.delechat@illustre.ch';
+	$to = 'thomas.alostery@ringieraxelspringer.ch';
 	//$to = 'cesargreppin@gmail.com';
 	// $sujet = $_POST['subject']." (Native Studio)";
 	$sujet = "Nouveau message de Native Studio";
@@ -144,4 +144,3 @@
 	*/
 	echo '<i class="fa fa-check-circle" aria-hidden="true"></i> Votre message a bien été envoyé. Merci';
 
-?>

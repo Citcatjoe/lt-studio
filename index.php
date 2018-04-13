@@ -119,15 +119,22 @@
 						<div class="inner">
 							<img src="images/logo3-01-01.svg" alt="logo native stories" class="logo-intro">
 							<p>
-								Les Natives Stories sont les nouveaux formats de branded content proposés par Ringier Axel Springer Suisse romande pour permettre aux marques de profiter au mieux du savoir-faire et de la portée de nos médias.<br>
+								Les Natives Stories sont les nouveaux formats de branded content proposés par Ringier Axel Springer Suisse romande. Elles permettent aux marques de profiter au mieux du savoir-faire et de la portée de nos médias.<br></p>
+
+							<p>
+								Ils nous font confiance:
+							</p>
+
+
+								<!-- De nouveaux formats sur mesure pour les marques soucieuses du soin apporté à leur images -->
 
 							<div class="intro-logo-list">
-								<img src="images/logo-lt-hero.svg" alt="logo Le Temps">
-								<img src="images/logo-illustre-hero.svg" alt="logo L'Illustré">
-								<img src="images/logo-pme-hero.svg" alt="logo PME magazine">
-								<img src="images/logo-gm-hero.svg" alt="logo Gault & Millau">
-								<img src="images/logo-bolero-hero.svg" alt="logo Bolero">
-								<img src="images/logo-tv8-hero.svg" alt="logo TV8">
+								<img src="images/logo-rente-hero.png" alt="logo Le Temps">
+								<img src="images/logo-loro-hero.png" alt="logo L'Illustré">
+								<img src="images/logo-mirabaud-hero.png" alt="logo PME magazine">
+								<img src="images/logo-bonhote-hero.png" alt="logo Gault & Millau">
+								<img src="images/logo-jobcloud-hero.svg" alt="logo Bolero">
+								<!-- <img src="images/logo-tv8-hero.svg" alt="logo TV8"> -->
 							</div>
 						
 							<div href="#one" class="scroll-downs scrolly">
@@ -176,7 +183,7 @@
 								<section>
 									<span class="icon major fa-video-camera"></span>
 									<h3>Video</h3>
-									<p>La réalisation de vidéos informatives, pédagogiques et divertissantes, sous forme de motion design, de séries vidéos, etc.</p>
+									<p>La réalisation de vidéos informatives, pédagogiques et divertissantes, sous forme de motion design, de séries en plusieurs épisodes, etc.</p>
 								</section>
 								<section>
 									<span class="icon major fa-bar-chart"></span>
@@ -186,7 +193,7 @@
 								<section>
 									<span class="icon major fa-star"></span>
 									<h3>Events</h3>
-									<p>L’organisation et l’animation de workshops, conférences et Facebook Live qui animent les passionnés.</p>
+									<p>L’organisation et l’animation de workshops, conférences, Facebook Live et même concerts qui animent les passionnés.</p>
 								</section>
 							</div>
 						</div>
@@ -201,7 +208,7 @@
 					<section id="two" class="spotlights wrapper style2">
 						<!-- <h1>Projects</h1> -->
 						<div class="wall">
-							<article class="brick brick-lg" data-url="boldor.html">
+							<article class="brick brick-sm" data-url="boldor.html">
 								<div class="brick-bg" style="background: url('images/thumb-boldor.jpg');"></div>
 								<div class="brick-excerpt">
 									<span class="brick-tag">Banque et finance</span>
@@ -209,7 +216,7 @@
 										Le Bol d’Or Mirabaud, une épopée technologique
 									</h1>
 									<span class="brick-lead">
-										Un long read interactif qui comprend des photos, de la vidéo 360° et des infographies. Jamais le prestige du Bol d’Or n’a aussi bien été retranscrit.
+										Un long read interactif qui comprend des photos, de la vidéo 360° et des infographies. Jamais le prestige du Bol d’Or et sa modernité n’ont aussi bien été retranscrits.
 									</span>
 								</div>
 								<!-- <div class="brick-radialgradient"></div> -->
@@ -242,6 +249,20 @@
 								<div class="brick-shadow"></div>
 								<!-- <div class="brick-overlay"></div> -->
 							</article>
+							<article class="brick brick-sm direct-link" data-url="bonhote.html">
+								<div class="brick-bg" style="background: url('images/thumb-loro-out.jpg');"></div>
+								<div class="brick-excerpt">
+									<span class="brick-tag">Sport</span>
+									<h1 class="brick-title">Les romands du sport</h1>
+									<span class="brick-lead">
+										Une série de reportages vidéo et print qui suit les espoirs du sport romand soutenus par la Loterie Romande.
+									</span>
+								</div>
+								<!-- <div class="brick-radialgradient"></div> -->
+								<div class="brick-shadow"></div>
+								<!-- <div class="brick-overlay"></div> -->
+							</article>
+							
 						</div>
 					</section>
 
@@ -257,7 +278,7 @@
 							<div class="style1">
 								<section>
 									<h2>L'attention du public se mérite</h2>
-									<p>La ligne éditoriale rigoureuse de nos médias a conduit à la confiance et à la qualité de notre audience. En plus de l’ancrage très fort de nos publications print dans le paysage suisse, notre portée digitale connaît une croissance importante.</p>
+									<p>La ligne éditoriale rigoureuse de nos médias nous a permis de nouer une relation de confiance et de qualité avec notre audience. En plus de l’ancrage très fort de nos publications print dans le paysage suisse, notre présence digitale connaît une croissance importante.</p>
 									<div class="features">
 										<section>
 											<h4><span>1.3</span>M</h4>
@@ -267,7 +288,7 @@
 										<section>
 											<h4><span>2.4</span>M</h4>
 											<img src="images/numbers-icon4-01.svg" alt="">
-											<p><b>visiteurs uniques chaque mois</b> sur les sites web de nos marques romandes. Un nombre en constante croissance.</p>
+											<p><b>visiteurs uniques chaque mois</b> sur les sites web de nos marques romandes. Un nombre en  croissance constante.</p>
 										</section>
 										<section>
 											<h4><span>520</span>K</h4>
@@ -277,7 +298,7 @@
 										<section>
 											<h4><span>1.2</span>M</h4>
 											<img src="images/numbers-icon7-01.svg" alt="">
-											<p><b>Vidéos vues chaque mois sur des thématiques et des cibles très diverses.</b> Le format qui engage le plus les Romands.</p>
+											<p><b>vidéos vues chaque mois sur des thématiques et des cibles très diverses.</b> Le format qui engage le plus les Romands.</p>
 										</section>
 									</div>
 								</section>
@@ -292,10 +313,10 @@
 								L'excellence partagée
 							</h2>
 							<div class="inner-left">
-								<p>
+								<p style="color: black;">
 									Chacun de nos six médias représente l’excellence dans son domaine. En matière d’information, de photographie, de business, de gastronomie, de mode ou de cinéma/télévision, nous pouvons assurer une qualité de contenu sans pareille en Suisse romande. 
 								</p>
-								<p>
+								<p style="color: black;">
 									Cela vous permettra de véhiculer au mieux l’esprit qualitatif de votre marque, autant auprès des décideurs que de la classe populaire.
 								</p>
 							</div>
@@ -335,7 +356,7 @@
 							<div class="split style1">
 								<section>
 									<h2>Osez une nouvelle expérience</h2>
-									<p>Contactez-nous pour profiter d’une nouvelle manière de communiquer à votre cible. Plus audacieuses, plus efficaces, les Native Stories ouvriront de nouvelles perspectives à votre développement en Suisse romande.</p>
+									<p>Contactez-nous pour profiter d’une nouvelle manière de communiquer avec votre cible. Plus audacieuses, plus efficaces, les Native Stories ouvriront de nouvelles perspectives à votre développement en Suisse romande.</p>
 									<form method="post" action="contact.php">
 										<div class="field half first">
 											<label for="name">Nom*</label>
@@ -383,14 +404,15 @@
 											<a target="_blank" href="https://www.letemps.ch/">letemps.ch</a><br>
 											<a target="_blank" href="http://www.illustre.ch/">illustre.ch</a><br>
 											<a target="_blank" href="https://www.boleromagazin.ch/fr/">boleromagazin.ch</a><br>
-											<a target="_blank" href="http://www.tv8.ch/">tv8.ch</a>
+											<a target="_blank" href="http://www.tv8.ch/">tv8.ch</a><br>
+											<a target="_blank" href="http://www.pme.ch/">pme.ch</a>
 										</li>
 										<!-- <li>
 											<h3>Réseaux sociaux</h3>
 											<ul class="icons">
 												<li><a target="_blank" href="https://twitter.com/letemps" class="fa-twitter"><span class="label">Twitter</span></a></li>
 												<li><a target="_blank" href="https://www.facebook.com/letemps.ch" class="fa-facebook"><span class="label">Facebook</span></a></li>
-												<li><a target="_blank" href="https://www.linkedin.com/company-beta/31957/?pathWildcard=31957" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+												<li><a target="_blank" href="https://www.linkedin.com/company/31957/" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
 												<li><a target="_blank" href="https://www.instagram.com/letemps.ch/" class="fa-instagram"><span class="label">Instagram</span></a></li>
 											</ul>
 										</li> -->
@@ -409,7 +431,7 @@
 							Crédits
 						</h3>
 						<p>
-							Native stories touts droits réservés 2017
+							Tous droits réservés Ringier Axel Springer Suisse, <?php echo date('Y'); ?>
 						</p>
 					</div>
 					<div class="right">
