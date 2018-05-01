@@ -118,11 +118,9 @@
 						<div class="intro-gradient"></div>
 						<div class="inner">
 							<img src="images/logo3-01-01.svg" alt="logo native stories" class="logo-intro">
+							
 							<p>
-								Les Natives Stories sont les nouveaux formats de branded content proposés par Ringier Axel Springer Suisse romande. Elles permettent aux marques de profiter au mieux du savoir-faire et de la portée de nos médias.<br></p>
-
-							<p>
-								Ils nous font confiance:
+								<br>Ils nous font confiance:
 							</p>
 
 
@@ -133,7 +131,8 @@
 								<img src="images/logo-loro-hero.png" alt="logo L'Illustré">
 								<img src="images/logo-mirabaud-hero.png" alt="logo PME magazine">
 								<img src="images/logo-bonhote-hero.png" alt="logo Gault & Millau">
-								<img src="images/logo-jobcloud-hero.svg" alt="logo Bolero">
+								<img src="images/logo-jobcloud-hero.svg" alt="logo Jobcloud">
+								<img src="images/logo-sgs-hero.png" alt="logo SGS">
 								<!-- <img src="images/logo-tv8-hero.svg" alt="logo TV8"> -->
 							</div>
 						
@@ -208,7 +207,11 @@
 					<section id="two" class="spotlights wrapper style2">
 						<!-- <h1>Projects</h1> -->
 						<div class="wall">
-							<article class="brick brick-sm" data-url="boldor.html">
+
+							
+
+
+							<article class="brick brick-lg" data-url="boldor.html">
 								<div class="brick-bg" style="background: url('images/thumb-boldor.jpg');"></div>
 								<div class="brick-excerpt">
 									<span class="brick-tag">Banque et finance</span>
@@ -236,6 +239,23 @@
 								<div class="brick-shadow"></div>
 								<!-- <div class="brick-overlay"></div> -->
 							</article>
+
+
+							<article class="brick brick-sm" data-url="sgs.html">
+								<div class="brick-bg" style="background: url('images/thumb-sgs-out.jpg');"></div>
+								<div class="brick-excerpt">
+									<span class="brick-tag">PME</span>
+									<h1 class="brick-title">SGS Suisse</h1>
+									<span class="brick-lead">
+										Une série de trois vidéos sur la transformation digitale des PME suisses.
+									</span>
+								</div>
+								<!-- <div class="brick-radialgradient"></div> -->
+								<div class="brick-shadow"></div>
+								<!-- <div class="brick-overlay"></div> -->
+							</article>
+
+
 							<article class="brick brick-sm" data-url="bonhote.html">
 								<div class="brick-bg" style="background: url('images/thumb-bonhote-out.jpg');"></div>
 								<div class="brick-excerpt">

@@ -1249,6 +1249,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logo-sgs-hero.png": {
+		"ft": 32768,
+		"iS": 33830,
+		"oA": 0,
+		"oAP": "\/images\/logo-sgs-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logo-tv8-black.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1274,16 +1285,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/logo2-01.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/logo3-01-01.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/logo3-01-01.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1506,7 +1507,7 @@
 		"oAP": "\/images\/thumb-bonhote-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/thumb-loro-out.jpg": {
@@ -1559,6 +1560,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/thumb-septmus-out.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/thumb-sgs-in.jpg": {
+		"ft": 16384,
+		"iS": 141261,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/thumb-sgs-in.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/thumb-sgs-out.jpg": {
+		"ft": 16384,
+		"iS": 200889,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/thumb-sgs-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1720,11 +1743,25 @@
 		"oAP": "\/load\/medgeno.html",
 		"oF": 0
 		},
+	"\/load\/septmus 2.textClipping": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/load\/septmus 2.textClipping",
+		"oF": 0
+		},
 	"\/load\/septmus.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/load\/septmus.html",
+		"oF": 0
+		},
+	"\/load\/sgs.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/load\/sgs.html",
 		"oF": 0
 		},
 	"\/manifest.json": {
